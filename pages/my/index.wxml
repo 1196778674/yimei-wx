@@ -12,7 +12,7 @@
       <image src="/static/images/my/mine_def_touxiang_3x.png" class="tui-avatar" bindtap="href" data-type="3"></image>
       <view class="tui-info">
         <view class="tui-nickname">
-          <text>echo.</text>
+          <text>小灰灰</text>
           <image src="/static/images/mall/my/icon_vip_3x.png" class="tui-img-vip"></image>
         </view>
         <view class="tui-explain">这家伙很懒…</view>

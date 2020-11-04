@@ -3,7 +3,9 @@ Page({
 
   },
   onLoad: function (options) {
-
+    wx.setNavigationBarTitle({
+      title: '设置'
+    })
   },
   href(e) {
     let page = Number(e.currentTarget.dataset.type)
