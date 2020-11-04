@@ -271,7 +271,7 @@ Page({
     let obj = wx.getMenuButtonBoundingClientRect();
     this.setData({
       width: obj.left,
-      height: obj.top + obj.height + 8,
+      height: obj.top + obj.height - 25,
       inputTop: obj.top + (obj.height - 30) / 2,
       arrowTop: obj.top + (obj.height - 32) / 2,
       searchKey: options.searchKey || ""

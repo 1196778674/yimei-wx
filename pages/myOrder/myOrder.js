@@ -19,7 +19,9 @@ Page({
   },
 
   onLoad: function(options) {
-
+    wx.setNavigationBarTitle({
+      title: '我的订单',
+    })
   },
   change(e) {
     this.setData({

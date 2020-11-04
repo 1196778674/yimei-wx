@@ -1,7 +1,7 @@
 <view class="container">
   <!--header-->
   <view class="tui-header-box" style="height:{{height}}px;background:rgba(255,255,255,{{opcity}})">
-    <view class="tui-header-icon" style="margin-top:{{top}}px">
+    <view class="tui-header-icon">
       <tui-icon name="more-fill" color="{{opcity>=1?'#000':'#fff'}}" size="20" tui-icon-class="tui-icon-more" class="tui-icon tui-icon-ml" style="background:rgba(0, 0, 0, {{iconOpcity}});" catchtap="openMenu"></tui-icon>
       <tui-badge type="red" tui-badge-class="tui-badge" size="small">5</tui-badge>
     </view>

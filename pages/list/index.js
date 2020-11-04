@@ -54,12 +54,12 @@ Page({
   productList(e) {
     let key = e.currentTarget.dataset.key;
     wx.navigateTo({
-      url: '../extend-view/productList/productList?searchKey=' + key
+      url: '../productList/productList?searchKey=' + key
     })
   },
   search: function() {
     wx.navigateTo({
-      url: '../extend-view/news-search/news-search'
+      url: '../news-search/news-search'
     })
   }
 })

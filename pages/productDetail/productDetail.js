@@ -62,7 +62,7 @@ Page({
     let obj = wx.getMenuButtonBoundingClientRect();
     this.setData({
       width: obj.left,
-      height: obj.top + obj.height + 8,
+      height: obj.height + 8,
       top: obj.top + (obj.height - 32) / 2
     }, () => {
       wx.getSystemInfo({

@@ -2,7 +2,7 @@
   <!--header-->
   <view class="tui-header-box">
     <view class="tui-header" style="height:{{height}}px">
-      <view class="tui-searchbox" style="margin-top:{{inputTop}}px" bindtap="search">
+      <view class="tui-searchbox" bindtap="search">
         <icon type="search" size='13' color='#999'></icon>
         <text class="tui-search-text" wx:if="{{!searchKey}}">搜索商品</text>
         <view class="tui-search-key" wx:if="{{searchKey}}">
@@ -53,7 +53,7 @@
   <!--screen-->
 
   <!--list-->
-  <view class="tui-product-list" style="margin-top:{{dropScreenH+18}}rpx">
+  <view class="tui-product-list" style="margin-top:{{dropScreenH+5}}rpx">
     <view class="tui-product-container">
       <block wx:for="{{productList}}" wx:key="{{index}}" wx:if="{{(index+1)%2!=0 || isList}}">
         <template is="productItem" data="{{item,index:index,isList:isList}}" />

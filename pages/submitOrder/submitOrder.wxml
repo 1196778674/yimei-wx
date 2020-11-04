@@ -4,11 +4,11 @@
       <view class="tui-address">
         <view wx:if="{{true}}">
           <view class="tui-userinfo">
-            <text class="tui-name">王大大</text> 139****7708
+            <text class="tui-name">小灰灰</text> 139****7708
           </view>
           <view class="tui-addr">
             <view class="tui-addr-tag">公司</view>
-            <text>广东省深圳市南山区高新科技园中区一路</text>
+            <text>北京市高新科技园中区一路</text>
           </view>
         </view>
         <view class="tui-none-addr" wx:else>
