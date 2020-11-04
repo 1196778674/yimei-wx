@@ -4,7 +4,9 @@ Page({
     insufficient: false
   },
   onLoad: function (options) {
-
+    wx.setNavigationBarTitle({
+      title: '支付'
+    })
   },
   chooseAddr() {
     wx.navigateTo({
