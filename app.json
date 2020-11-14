@@ -1,9 +1,6 @@
 {
   "pages": [
-    "pages/index/index",
-    "pages/list/index",
-    "pages/car/index",
-    "pages/my/index"
+    "pages/index/index"
   ],
   "window": {
     "navigationBarBackgroundColor": "#ffffff",
@@ -12,29 +9,6 @@
     "backgroundColor": "#eeeeee",
     "backgroundTextStyle": "light",
     "enablePullDownRefresh": false
-  },
-  "tabBar": {
-    "list": [{
-      "pagePath": "pages/index/index",
-      "text": "首页",
-      "iconPath": "static/images/tabbar/code_gray.png",
-      "selectedIconPath": "static/images/tabbar/code_active.png"
-    },{
-      "pagePath": "pages/list/index",
-      "text": "分类",
-      "iconPath": "static/images/tabbar/code_gray.png",
-      "selectedIconPath": "static/images/tabbar/code_active.png"
-    },{
-      "pagePath": "pages/car/index",
-      "text": "购物车",
-      "iconPath": "static/images/tabbar/code_gray.png",
-      "selectedIconPath": "static/images/tabbar/code_active.png"
-    },{
-      "pagePath": "pages/my/index",
-      "text": "我的",
-      "iconPath": "static/images/tabbar/code_gray.png",
-      "selectedIconPath": "static/images/tabbar/code_active.png"
-    }]
   },
   "networkTimeout": {
     "request": 10000,
