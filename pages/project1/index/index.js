@@ -1,4 +1,4 @@
-const util = require('../../utils/util.js')
+const util = require('../../../utils/util.js')
 Page({
   data: {
     current: 0,
@@ -20,85 +20,70 @@ Page({
       size: 24
     }],
     hotSearch: [
-      "休闲零食",
-      "自热火锅",
-      "小冰箱迷你"
+      "贵妇人",
+      "泰迪",
+      "金毛"
     ],
     banner: [
-      "1.jpg",
-      "2.jpg",
-      "3.jpg",
-      "4.jpg",
-      "5.jpg"
+      "1.jpeg",
+      "2.jpeg",
+      "3.jpeg",
+      "4.jpeg"
     ],
     category: [{
-      img: "1.jpg",
-      name: "短袖T恤"
+      img: "宠物.png",
+      name: "宠物"
     }, {
-      img: "2.jpg",
-      name: "足球"
+      img: "宠物寄养.png",
+      name: "宠物寄养"
     }, {
-      img: "3.jpg",
-      name: "运动鞋"
+      img: "宠物训练.png",
+      name: "宠物训练"
     }, {
-      img: "4.png",
-      name: "中老年"
+      img: "宠物精粮.png",
+      name: "宠物精粮"
     }, {
-      img: "5.png",
-      name: "甜美风"
+      img: "宠物服装.png",
+      name: "宠物服装"
     }, {
-      img: "6.jpg",
-      name: "鱼尾裙"
+      img: "宠物社交.png",
+      name: "宠物社交"
     }, {
-      img: "7.jpg",
-      name: "相机配件"
+      img: "宠物梳理.png",
+      name: "宠物梳理"
     }, {
-      img: "8.jpg",
-      name: "护肤套装"
+      img: "宠物玩具.png",
+      name: "宠物玩具"
     }, {
-      img: "9.jpg",
-      name: "单肩包"
+      img: "宠物洗漱.png",
+      name: "宠物洗漱"
     }, {
-      img: "10.jpg",
-      name: "卫衣"
+      img: "宠物疫苗.png",
+      name: "宠物疫苗"
     }],
     newProduct: [{
-      name: "时尚舒适公主裙高街修身长裙",
+      name: "金冠精品狗粮",
       present: 198,
       original: 298,
       pic: "1.jpg",
       type: 1,
       isLabel: true
     }, {
-      name: "高街修身雪纺衫",
+      name: "海洋之星狗粮",
       present: 398,
       original: 598,
       pic: "2.jpg",
       type: 2,
       isLabel: true
     }, {
-      name: "轻奢商务上衣",
+      name: "爱宠精品奶砖狗粮一包",
       present: 99,
       original: 199,
       pic: "3.jpg",
       type: 1,
       isLabel: true
     }, {
-      name: "品质牛皮婚鞋牛皮婚鞋品质就是好",
-      present: 99,
-      original: 199,
-      pic: "5.jpg",
-      type: 1,
-      isLabel: true
-    }, {
-      name: "轻奢时尚大包限时新品推荐",
-      present: 99,
-      original: 199,
-      pic: "6.jpg",
-      type: 1,
-      isLabel: false
-    }, {
-      name: "高街修身长裙",
+      name: "集爱宠物狗粮爱吃执行",
       present: 999,
       original: 1299,
       pic: "4.jpg",
@@ -107,70 +92,70 @@ Page({
     }],
     productList: [{
         img: 1,
-        name: "欧莱雅（LOREAL）奇焕光彩粉嫩透亮修颜霜 30ml（欧莱雅彩妆 BB霜 粉BB 遮瑕疵 隔离）",
+        name: "伯纳天纯 中大型犬幼犬粮 15kg",
         sale: 599,
         factory: 899,
         payNum: 2342
       },
       {
         img: 2,
-        name: "德国DMK进口牛奶  欧德堡（Oldenburger）超高温处理全脂纯牛奶1L*12盒",
+        name: "雷米高 澳丽得 牛肉深海鱼油成犬粮 500g",
         sale: 29,
         factory: 69,
         payNum: 999
       },
       {
         img: 3,
-        name: "【第2支1元】柔色尽情丝柔口红唇膏女士不易掉色保湿滋润防水 珊瑚红",
+        name: "美国原装进口牛油果AVODerm 鸡肉糙米配方成犬粮 30磅/13.6kg",
         sale: 299,
         factory: 699,
         payNum: 666
       },
       {
         img: 4,
-        name: "百雀羚套装女补水保湿护肤品",
+        name: "美国原装进口 Instinct生鲜本能 生鲜系列 无谷鸡肉配方全犬粮 21磅(9.5kg)",
         sale: 1599,
         factory: 2899,
         payNum: 236
       },
       {
         img: 5,
-        name: "百草味 肉干肉脯 休闲零食 靖江精制猪肉脯200g/袋",
+        name: "美国原装进口卡比 全犬期原味配方狗粮 44磅(19.9kg) ",
         sale: 599,
         factory: 899,
         payNum: 2399
       },
       {
         img: 6,
-        name: "短袖睡衣女夏季薄款休闲家居服短裤套装女可爱韩版清新学生两件套 短袖粉色长颈鹿 M码75-95斤",
+        name: "雷米高 澳宝 牛肉肝蔬菜营养全价成犬粮 20kg",
         sale: 599,
         factory: 899,
         payNum: 2399
       },
       {
         img: 1,
-        name: "欧莱雅（LOREAL）奇焕光彩粉嫩透亮修颜霜",
+        name: "伯纳天纯 低敏中大型犬成犬粮 15kg",
         sale: 599,
         factory: 899,
         payNum: 2342
       },
       {
         img: 2,
-        name: "德国DMK进口牛奶",
+        name: "雷米高 澳丽得 牛肉深海鱼油全价幼犬粮 500g ",
         sale: 29,
         factory: 69,
         payNum: 999
       },
       {
         img: 3,
-        name: "【第2支1元】柔色尽情丝柔口红唇膏女士不易掉色保湿滋润防水 珊瑚红",
+        name: "美国原装进口 Instinct生鲜本能 无谷系列 鸡肉配方全犬粮 22.5磅(10.2kg)",
         sale: 299,
         factory: 699,
         payNum: 666
       },
       {
         img: 4,
-        name: "百雀羚套装女补水保湿护肤品",
+        name: "醇粹Purich  金标无麸系列 全价大型成犬粮 15kg",
         sale: 1599,
         factory: 2899,
         payNum: 236
