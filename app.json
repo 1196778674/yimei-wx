@@ -1,7 +1,6 @@
 {
   "pages": [
-    "pages/index/index",
-    "pages/project1/index/index"
+    "pages/index/index"
   ],
   "window": {
     "navigationBarBackgroundColor": "#ffffff",
@@ -17,6 +16,12 @@
     "uploadFile": 10000,
     "downloadFile": 10000
   },
+  "subPackages": [{
+    "root": "pages/project1/",
+    "pages": [
+      "index/index"
+    ]
+  }],
   "debug": true,
   "sitemapLocation": "sitemap.json"
 }
