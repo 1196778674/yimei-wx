@@ -26,7 +26,15 @@ Page({
     }]
   },
   goProject (e) {
-    console.log(e)
+    let id = e.currentTarget.dataset.id;
+    this.navigateTo(id)
+  },
+  navigateTo (id) {
+    wx.showToast({
+      title: `${id}模块的功能待完善~`,
+      icon: 'none',
+      duration: 2000
+    })
   },
   /**
    * 生命周期函数--监听页面加载

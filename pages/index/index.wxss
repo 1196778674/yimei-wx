@@ -12,7 +12,6 @@ page {
 .item{
   font-size: 50rpx;
   margin-top: 20rpx;
-  border: 1px solid #dedede;
   border-radius: 10rpx;
   text-align: center;
   padding: 50rpx;
