@@ -84,7 +84,7 @@ page {
 }
 
 .tui-rolling-search {
-  width: 65%;
+  width: 70%;
   height: 60rpx;
   border-radius: 35rpx;
   padding: 0 40rpx 0 30rpx;
@@ -95,7 +95,7 @@ page {
   flex-wrap: nowrap;
   color: #999;
   position: absolute;
-  left: 80rpx;
+  left: 20rpx;
 }
 
 .tui-category {
