@@ -112,52 +112,52 @@
         </view>
         <view class="tui-drawer-content tui-flex-attr">
           <view class="tui-attr-item">
-            <view class="tui-attr-ellipsis">男装</view>
+            <view class="tui-attr-ellipsis">狗粮</view>
           </view>
           <view class="tui-attr-item">
-            <view class="tui-attr-ellipsis">女装</view>
+            <view class="tui-attr-ellipsis">猫粮</view>
           </view>
           <view class="tui-attr-item">
-            <view class="tui-attr-ellipsis">运动服饰</view>
+            <view class="tui-attr-ellipsis">进口</view>
           </view>
           <view class="tui-attr-item">
-            <view class="tui-attr-ellipsis">户外鞋服</view>
+            <view class="tui-attr-ellipsis">国产</view>
           </view>
           <view class="tui-attr-item">
-            <view class="tui-attr-ellipsis">文化</view>
+            <view class="tui-attr-ellipsis">压缩品</view>
           </view>
           <view class="tui-attr-item">
-            <view class="tui-attr-ellipsis">服饰配件</view>
+            <view class="tui-attr-ellipsis">湿品</view>
           </view>
           <view class="tui-attr-item">
-            <view class="tui-attr-ellipsis">流行男鞋</view>
+            <view class="tui-attr-ellipsis">保洁</view>
           </view>
           <view class="tui-attr-item">
-            <view class="tui-attr-ellipsis">艺术</view>
+            <view class="tui-attr-ellipsis">疫苗</view>
           </view>
         </view>
 
         <view class="tui-drawer-title">
           <text class="tui-title-bold">品牌</text>
           <view class="tui-all-box">
-            <view class="tui-attr-right tui-active ">花花公子，七匹狼（SEPTWOLVES）</view>
+            <view class="tui-attr-right tui-active ">天衡宝Natural Balance</view>
             <tui-icon name="arrowdown" size="14" color="#444" tui-icon-class="tui-ml"></tui-icon>
           </view>
         </view>
         <view class="tui-drawer-content tui-flex-attr">
           <view class="tui-attr-item tui-btmItem-active">
-            <view class="tui-attr-ellipsis">花花公子</view>
+            <view class="tui-attr-ellipsis">trendsetter</view>
           </view>
           <view class="tui-attr-item tui-btmItem-active">
-            <view class="tui-attr-ellipsis">七匹狼（SEPTWOLVES）</view>
+            <view class="tui-attr-ellipsis">天衡宝Natural Balance</view>
           </view>
           <view class="tui-attr-item">
-            <view class="tui-attr-ellipsis">吉普</view>
+            <view class="tui-attr-ellipsis">比瑞吉Nature Bridge</view>
           </view>
         </view>
 
         <view class="tui-drawer-title">
-          <text class="tui-title-bold">尺码</text>
+          <text class="tui-title-bold">犬种</text>
           <view class="tui-all-box">
             <view class="tui-attr-right">全部</view>
             <tui-icon name="arrowup" size="14" color="#444" tui-icon-class="tui-ml"></tui-icon>
@@ -165,58 +165,34 @@
         </view>
         <view class="tui-drawer-content tui-flex-attr">
           <view class="tui-attr-item">
-            <view class="tui-attr-ellipsis">27</view>
+            <view class="tui-attr-ellipsis">金毛</view>
           </view>
           <view class="tui-attr-item">
-            <view class="tui-attr-ellipsis">28</view>
+            <view class="tui-attr-ellipsis">拉布拉多</view>
           </view>
           <view class="tui-attr-item">
-            <view class="tui-attr-ellipsis">29</view>
+            <view class="tui-attr-ellipsis">泰迪</view>
           </view>
           <view class="tui-attr-item">
-            <view class="tui-attr-ellipsis">30</view>
+            <view class="tui-attr-ellipsis">狼狗</view>
           </view>
           <view class="tui-attr-item">
-            <view class="tui-attr-ellipsis">31</view>
+            <view class="tui-attr-ellipsis">贵妇人</view>
           </view>
           <view class="tui-attr-item">
-            <view class="tui-attr-ellipsis">32</view>
+            <view class="tui-attr-ellipsis">棕熊</view>
           </view>
           <view class="tui-attr-item">
-            <view class="tui-attr-ellipsis">33</view>
+            <view class="tui-attr-ellipsis">秋田犬</view>
           </view>
           <view class="tui-attr-item">
-            <view class="tui-attr-ellipsis">34</view>
+            <view class="tui-attr-ellipsis">斗牛梗</view>
           </view>
           <view class="tui-attr-item">
-            <view class="tui-attr-ellipsis">35</view>
+            <view class="tui-attr-ellipsis">边牧</view>
           </view>
           <view class="tui-attr-item">
-            <view class="tui-attr-ellipsis">36</view>
-          </view>
-          <view class="tui-attr-item">
-            <view class="tui-attr-ellipsis">37</view>
-          </view>
-          <view class="tui-attr-item">
-            <view class="tui-attr-ellipsis">38</view>
-          </view>
-          <view class="tui-attr-item">
-            <view class="tui-attr-ellipsis">39</view>
-          </view>
-          <view class="tui-attr-item">
-            <view class="tui-attr-ellipsis">40</view>
-          </view>
-          <view class="tui-attr-item">
-            <view class="tui-attr-ellipsis">41</view>
-          </view>
-          <view class="tui-attr-item">
-            <view class="tui-attr-ellipsis">42</view>
-          </view>
-          <view class="tui-attr-item">
-            <view class="tui-attr-ellipsis">43</view>
-          </view>
-          <view class="tui-attr-item">
-            <view class="tui-attr-ellipsis">44</view>
+            <view class="tui-attr-ellipsis">罗威纳</view>
           </view>
         </view>
         <view class="tui-safearea-bottom"></view>

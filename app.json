@@ -19,7 +19,8 @@
   "subPackages": [{
     "root": "pages/project1/",
     "pages": [
-      "index/index"
+      "index/index",
+      "my/index"
     ]
   }],
   "debug": true,

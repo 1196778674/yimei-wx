@@ -40,58 +40,28 @@ Page({
         name: "trendsetter",
         selected: false
       }, {
-        name: "维肯（Viken）",
+        name: "天衡宝Natural Balance",
         selected: false
       }, {
-        name: "AORO",
+        name: "比瑞吉Nature Bridge",
         selected: false
       }, {
-        name: "苏发",
+        name: "牛油果AVODerm",
         selected: false
       }, {
-        name: "飞花令（FHL）",
+        name: "枫树大道Maples",
         selected: false
       }, {
-        name: "叶梦丝",
+        name: "原始猎食渴望Orijen",
         selected: false
       }, {
-        name: "ITZOOM",
+        name: "伯纳天纯Pure&Natural",
         selected: false
       }, {
-        name: "亿魅",
+        name: "冠能PRO PLAN",
         selected: false
       }, {
-        name: "LEIKS",
-        selected: false
-      }, {
-        name: "雷克士",
-        selected: false
-      }, {
-        name: "蕊芬妮",
-        selected: false
-      }, {
-        name: "辉宏达",
-        selected: false
-      }, {
-        name: "英西达",
-        selected: false
-      }, {
-        name: "戴为",
-        selected: false
-      }, {
-        name: "魔风者",
-        selected: false
-      }, {
-        name: "即满",
-        selected: false
-      }, {
-        name: "北比",
-        selected: false
-      }, {
-        name: "娱浪",
-        selected: false
-      }, {
-        name: "搞怪猪",
+        name: "雷米高",
         selected: false
       }]
     }, {
@@ -99,165 +69,153 @@ Page({
       selectedName: "类型",
       isActive: false,
       list: [{
-        name: "线充套装",
+        name: "进口狗粮",
         selected: false
       }, {
-        name: "单条装",
+        name: "国产狗粮",
         selected: false
       }, {
-        name: "车载充电器",
+        name: "冻干狗粮",
         selected: false
       }, {
-        name: "PD快充",
+        name: "磨牙洁齿",
         selected: false
       }, {
-        name: "数据线转换器",
+        name: "肉制零食",
         selected: false
       }, {
-        name: "多条装",
+        name: "点心饮料",
         selected: false
       }, {
-        name: "充电插头",
+        name: "罐头湿粮",
         selected: false
       }, {
-        name: "无线充电器",
+        name: "冻干零食",
         selected: false
       }, {
-        name: "座式充电器",
+        name: "深睡眠窝",
         selected: false
       }, {
-        name: "万能充",
+        name: "柔软睡垫",
         selected: false
       }, {
-        name: "转换器/转接线",
+        name: "睡床沙发",
         selected: false
       }, {
-        name: "MFI苹果认证",
+        name: "棉制玩具",
         selected: false
       }, {
-        name: "转换器",
+        name: "橡胶玩具",
         selected: false
       }, {
-        name: "苹果认证",
+        name: "塑料玩具",
         selected: false
       }]
     }, {
-      name: "适用手机",
-      selectedName: "适用手机",
+      name: "适用品种",
+      selectedName: "适用品种",
       isActive: false,
       list: [{
-        name: "通用",
+        name: "犬类",
         selected: false
       }, {
-        name: "vivo",
+        name: "金毛",
         selected: false
       }, {
-        name: "OPPO",
+        name: "拉布拉多",
         selected: false
       }, {
-        name: "魅族",
+        name: "泰迪",
         selected: false
       }, {
-        name: "苹果",
+        name: "狼狗",
         selected: false
       }, {
-        name: "华为",
+        name: "贵妇人",
         selected: false
       }, {
-        name: "三星",
+        name: "棕熊",
         selected: false
       }, {
-        name: "荣耀",
+        name: "秋田犬",
         selected: false
       }, {
-        name: "诺基亚5",
+        name: "斗牛梗",
         selected: false
       }, {
-        name: "荣耀4",
+        name: "边牧",
         selected: false
       }, {
-        name: "诺基",
-        selected: false
-      }, {
-        name: "荣耀",
-        selected: false
-      }, {
-        name: "诺基亚2",
-        selected: false
-      }, {
-        name: "荣耀2",
-        selected: false
-      }, {
-        name: "诺基",
+        name: "藏獒",
         selected: false
       }]
     }],
     productList: [{
         img: 1,
-        name: "欧莱雅（LOREAL）奇焕光彩粉嫩透亮修颜霜 30ml（欧莱雅彩妆 BB霜 粉BB 遮瑕疵 隔离）",
+        name: "美国原装进口牛油果AVODerm 鸡肉糙米配方成犬粮 30磅/13.6kg",
         sale: 599,
         factory: 899,
         payNum: 2342
       },
       {
         img: 2,
-        name: "德国DMK进口牛奶  欧德堡（Oldenburger）超高温处理全脂纯牛奶1L*12盒",
+        name: "加拿大原装进口 爱肯拿Acana 无谷鸭肉巴特利梨配方全犬粮 6kg",
         sale: 29,
         factory: 69,
         payNum: 999
       },
       {
         img: 3,
-        name: "【第2支1元】柔色尽情丝柔口红唇膏女士不易掉色保湿滋润防水 珊瑚红",
+        name: "雷米高 澳丽得 牛肉深海鱼油成犬粮 500g",
         sale: 299,
         factory: 699,
         payNum: 666
       },
       {
         img: 4,
-        name: "百雀羚套装女补水保湿护肤品",
+        name: "冠能 小型犬挑食及美毛配方成犬全价狗粮 2.5kg",
         sale: 1599,
         factory: 2899,
         payNum: 236
       },
       {
         img: 5,
-        name: "百草味 肉干肉脯 休闲零食 靖江精制猪肉脯200g/袋",
+        name: "加拿大原装进口 爱肯拿Acana 小型犬成犬配方粮(鸡肉+鱼) 2kg",
         sale: 599,
         factory: 899,
         payNum: 2399
       },
       {
         img: 6,
-        name: "短袖睡衣女夏季薄款休闲家居服短裤套装女可爱韩版清新学生两件套 短袖粉色长颈鹿 M码75-95斤",
+        name: "美国原装进口 Instinct生鲜本能 无谷系列 鸡肉配方全犬粮 22.5磅(10.2kg)",
         sale: 599,
         factory: 899,
         payNum: 2399
       },
       {
         img: 1,
-        name: "欧莱雅（LOREAL）奇焕光彩粉嫩透亮修颜霜",
+        name: "加拿大原装进口纽顿 均衡低敏系列 鸡肉&糙米配方 小型成犬粮 6kg",
         sale: 599,
         factory: 899,
         payNum: 2342
       },
       {
         img: 2,
-        name: "德国DMK进口牛奶",
+        name: "海洋之星 臻越系列 加强配方成犬粮 小颗粒 1.5kg",
         sale: 29,
         factory: 69,
         payNum: 999
       },
       {
         img: 3,
-        name: "【第2支1元】柔色尽情丝柔口红唇膏女士不易掉色保湿滋润防水 珊瑚红",
+        name: "加拿大原装进口 原始猎食渴望 无谷配方 成犬粮 2kg",
         sale: 299,
         factory: 699,
         payNum: 666
       },
       {
         img: 4,
-        name: "百雀羚套装女补水保湿护肤品",
+        name: "醇粹Purich  金标无麸系列 全价大型成犬粮 15kg",
         sale: 1599,
         factory: 2899,
         payNum: 236

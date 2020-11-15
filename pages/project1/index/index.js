@@ -177,11 +177,11 @@ Page({
         this.classify();
       } else if (index == 2) {
         wx.navigateTo({
-          url: '../mall-extend/shopcart/shopcart'
+          url: '../car/index'
         })
       } else {
         wx.navigateTo({
-          url: '../mall-extend/my/my'
+          url: '../my/index'
         })
       }
     }
@@ -233,7 +233,7 @@ Page({
   },
   classify: function() {
     wx.navigateTo({
-      url: '/pages/navbar-2/navbar-2'
+      url: '/pages/project1/navbar-2/navbar-2'
     })
 
   },

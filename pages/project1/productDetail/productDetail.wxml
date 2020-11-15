@@ -141,7 +141,7 @@
 
       <view class="tui-cmt-content tui-padding">
         <view class="tui-cmt-user">
-          <image src="../../static/images/news/avatar_2.jpg" class="tui-acatar"></image>
+          <image src="../../../static/images/news/2.jpg" class="tui-acatar"></image>
           <view>z***9</view>
         </view>
         <view class="tui-cmt">物流很快，很适合我的风格❤</view>

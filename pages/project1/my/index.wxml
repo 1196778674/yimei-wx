@@ -1,10 +1,10 @@
 <view>
   <!--header-->
-  <view class="tui-header-box" style="height:{{height}}px;background:rgba(255,255,255,{{opcity}})">
+  <!-- <view class="tui-header-box" style="height:{{height}}px;background:rgba(255,255,255,{{opcity}})">
     <view class="tui-header" style="opacity:{{opcity}}">
       我的
     </view>
-  </view>
+  </view> -->
   <!--header-->
   <view class="tui-mybg-box">
     <image src="/static/images/mall/my/img_bg_3x.png" class="tui-my-bg" mode="widthFix"></image>

@@ -86,7 +86,7 @@
 
 .tui-mybg-box {
   width: 100%;
-  height: 464rpx;
+  height: 364rpx;
   position: relative;
 }
 
@@ -101,7 +101,7 @@
   width: 100%;
   height: 128rpx;
   left: 0;
-  top: 120rpx;
+  top: 20rpx;
   padding: 0 30rpx;
   box-sizing: border-box;
   display: flex;
@@ -158,7 +158,7 @@
   box-sizing: border-box;
   position: absolute;
   left: 0;
-  top: 280rpx;
+  top: 150rpx;
   display: flex;
   align-items: center;
   justify-content: space-between;
