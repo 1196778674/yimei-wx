@@ -3,7 +3,7 @@
   "navigationBarTextStyle": "black",
   "navigationBarTitleText": "地址",
   "usingComponents": {
-    "tui-button": "../../components/extend/button/button",
-    "tui-list-cell": "../../components/list-cell/list-cell"
+    "tui-button": "../../../components/extend/button/button",
+    "tui-list-cell": "../../../components/list-cell/list-cell"
   }
 }

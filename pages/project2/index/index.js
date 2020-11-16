@@ -233,7 +233,7 @@ Page({
   },
   classify: function() {
     wx.navigateTo({
-      url: '/pages/project1/navbar-2/navbar-2'
+      url: '/pages/project2/navbar-2/navbar-2'
     })
 
   },

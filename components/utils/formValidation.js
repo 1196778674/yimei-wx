@@ -1,6 +1,6 @@
 /**
  * 表单验证
- * 来自 ThorUI  www.thorui.cn | 文档地址： www.donarui.com
+ * 来自 小灰灰  www.thorui.cn | 文档地址： www.donarui.com
  * @author echo.
  * @version 1.3.1
  **/
