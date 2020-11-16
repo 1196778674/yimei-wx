@@ -30,12 +30,11 @@ Page({
     this.navigateTo(id)
   },
   navigateTo (id) {
-    if(id === 2) {
-      wx.navigateTo({
-        url: '../project1/index/index',
-      })
-      return
-    }
+    console.log(id, `project${id}`)
+    wx.navigateTo({
+      url: `../project${id}/index/index`,
+    })
+    return
     wx.showToast({
       title: `${id}模块的功能待完善~`,
       icon: 'none',

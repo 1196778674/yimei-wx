@@ -60,7 +60,7 @@
       "list": [
         {
           "name": "pages/index/index",
-          "pathName": "pages/index/index",
+          "pathName": "pages/project1/index/index",
           "query": "",
           "scene": null
         }

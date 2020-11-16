@@ -17,7 +17,31 @@
     "downloadFile": 10000
   },
   "subPackages": [{
+    "root": "pages/project0/",
+    "pages": [
+      "index/index",
+      "my/index"
+    ]
+  },{
     "root": "pages/project1/",
+    "pages": [
+      "index/index",
+      "my/index"
+    ]
+  },{
+    "root": "pages/project2/",
+    "pages": [
+      "index/index",
+      "my/index"
+    ]
+  },{
+    "root": "pages/project3/",
+    "pages": [
+      "index/index",
+      "my/index"
+    ]
+  },{
+    "root": "pages/project4/",
     "pages": [
       "index/index",
       "my/index"
