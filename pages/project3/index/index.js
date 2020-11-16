@@ -20,15 +20,14 @@ Page({
       size: 24
     }],
     hotSearch: [
-      "贵妇人",
-      "泰迪",
-      "金毛"
+      "南半球",
+      "Bordelle",
+      "波兰美衣"
     ],
     banner: [
-      "1.jpeg",
-      "2.jpeg",
-      "3.jpeg",
-      "4.jpeg"
+      "http://img.o2brashop.com/assets/uploads/blogs/3809212f125eecd5ee1ab2b18455b060.jpg",
+      "http://img.o2brashop.com/assets/uploads/blogs/71b344d60e120e3a8ed62ec290ffc793.png",
+      "http://img.o2brashop.com/assets/uploads/blogs/ca291302c2d00bee8af904f67139a552.jpg"
     ],
     category: [{
       img: "宠物.png",
@@ -163,9 +162,14 @@ Page({
     ],
     pageIndex: 1,
     loadding: false,
-    pullUpOn: true
+    pullUpOn: true,
+    height: "0px"
   },
   onLoad: function(options) {
+    let height = wx.getSystemInfoSync().windowWidth
+    this.setData({
+      height: `${height-20}px`
+    })
   },
   tabbarSwitch: function(e) {
     let index = e.currentTarget.dataset.index;
