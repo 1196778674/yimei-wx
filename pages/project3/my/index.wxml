@@ -7,7 +7,6 @@
   </view> -->
   <!--header-->
   <view class="tui-mybg-box">
-    <image src="/static/images/mall/my/img_bg_3x.png" class="tui-my-bg" mode="widthFix"></image>
     <view class="tui-header-center">
       <image src="/static/images/my/mine_def_touxiang_3x.png" class="tui-avatar" bindtap="href" data-type="3"></image>
       <view class="tui-info">
@@ -92,48 +91,6 @@
       </view>
     </view>
 
-    <view class="tui-box tui-assets-box" bindtap="href" data-type="6">
-      <tui-list-cell padding="0" last="{{true}}" hover="{{false}}">
-        <view class="tui-cell-header">
-          <view class="tui-cell-title">我的资产</view>
-        </view>
-      </tui-list-cell>
-      <view class="tui-order-list tui-assets-list">
-        <view class="tui-order-item">
-          <view class="tui-assets-num">
-            <text>3</text>
-            <view class="tui-badge-dot"></view>
-          </view>
-          <view class="tui-assets-text">优惠券</view>
-        </view>
-        <view class="tui-order-item">
-          <view class="tui-assets-num">
-            <text>7</text>
-            <view class="tui-badge-dot"></view>
-          </view>
-          <view class="tui-assets-text">积分</view>
-        </view>
-        <view class="tui-order-item">
-          <view class="tui-assets-num">
-            <text>0</text>
-          </view>
-          <view class="tui-assets-text">红包</view>
-        </view>
-        <view class="tui-order-item">
-          <view class="tui-assets-num">
-            <text>1</text>
-          </view>
-          <view class="tui-assets-text">礼品卡</view>
-        </view>
-        <view class="tui-order-item">
-          <view class="tui-assets-num">
-            <text>20</text>
-          </view>
-          <view class="tui-assets-text">津贴</view>
-        </view>
-      </view>
-    </view>
-
     <view class="tui-box tui-tool-box" bindtap="href" data-type="7">
       <tui-list-cell arrow="{{true}}" padding="0" lineLeft="{{false}}">
         <view class="tui-cell-header">
@@ -201,7 +158,7 @@
         <block wx:for="{{productList}}" wx:key="{{index}}" wx:if="{{(index+1)%2!=0}}">
           <!--商品列表-->
           <view class="tui-pro-item" hover-class="hover" hover-start-time="150" bindtap="detail">
-            <image src="/static/images/mall/product/{{item.img}}.jpg" class="tui-pro-img" mode="widthFix" />
+            <image src="{{item.img}}" class="tui-pro-img" mode="widthFix" />
             <view class="tui-pro-content">
               <view class="tui-pro-tit">{{item.name}}</view>
               <view>
@@ -221,7 +178,7 @@
         <block wx:for="{{productList}}" wx:key="{{index}}" wx:if="{{(index+1)%2==0}}">
           <!--商品列表-->
           <view class="tui-pro-item" hover-class="hover" hover-start-time="150" bindtap="detail">
-            <image src="/static/images/mall/product/{{item.img}}.jpg" class="tui-pro-img" mode="widthFix" />
+            <image src="{{item.img}}" class="tui-pro-img" mode="widthFix" />
             <view class="tui-pro-content">
               <view class="tui-pro-tit">{{item.name}}</view>
               <view>

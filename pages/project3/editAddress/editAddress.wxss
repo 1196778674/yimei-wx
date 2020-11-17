@@ -68,8 +68,8 @@
 }
 
 .tui-label-active {
-	background: #E41F19;
-	border-color: #E41F19;
+	background: burlywood;
+	border-color: burlywood;
 	color: #fff;
 }
 

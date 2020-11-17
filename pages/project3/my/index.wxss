@@ -65,13 +65,13 @@
 }
 
 .tui-badge-red {
-  background: #F74D54;
+  background: burlywood;
   color: #fff;
 }
 
 .tui-badge-white {
   background: #fff;
-  color: #F74D54;
+  color: burlywood;
 }
 
 .tui-badge-dot {
@@ -81,13 +81,14 @@
   border-radius: 50%;
   right: -12rpx;
   top: 0;
-  background: #F74D54;
+  background: burlywood;
 }
 
 .tui-mybg-box {
   width: 100%;
   height: 364rpx;
   position: relative;
+  background-color: burlywood;
 }
 
 .tui-my-bg {

@@ -49,7 +49,7 @@
 	
 		<view class="tui-addr-save">
 			<!-- <button formType="submit" type="danger" height="88rpx">保存收货地址</button> -->
-			<tui-button formType="submit" type="danger" height="88rpx">保存收货地址</tui-button>
+			<tui-button formType="submit" type="warning" height="88rpx">保存收货地址</tui-button>
 		</view>
 		<view class="tui-del" wx:if="{{false}}">
 			<tui-button type="gray" height="88rpx">删除收货地址</tui-button>

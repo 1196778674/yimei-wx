@@ -30,7 +30,7 @@
           <tui-tag size="small" plain="{{true}}" type="high-green" shape="circle" tui-tag-class="tui-scale tui-tag-pro">新品</tui-tag>
         </view>
         <view class="tui-collection tui-size" bindtap="collecting">
-          <tui-icon name="{{collected?'like-fill':'like'}}" color="{{collected?'#ff201f':'#333'}}" size="20" tui-icon-class="tui-icon-collection"></tui-icon>
+          <tui-icon name="{{collected?'like-fill':'like'}}" color="{{collected?'burlywood':'#333'}}" size="20" tui-icon-class="tui-icon-collection"></tui-icon>
           <view class="tui-scale {{collected?'tui-red':''}}">收藏</view>
         </view>
       </view>
@@ -214,7 +214,7 @@
   <tui-bottom-popup show="{{popupShow}}" tui-popup-class="tui-popup" bind:close="hidePopup">
     <view class="tui-popup-box">
       <view class="tui-product-box tui-padding">
-        <image src="https://www.thorui.cn/img/product/11.jpg" class="tui-popup-img"></image>
+        <image src="http://img.o2brashop.com/assets/uploads/products/10fd7e6667e20013d63978366b15e538.jpg" class="tui-popup-img"></image>
         <view class="tui-popup-price">
           <view class="tui-amount tui-bold">￥49.00</view>
           <view class="tui-number">编号:4373299399393</view>

@@ -9,7 +9,6 @@
           <tui-countdown time="{{1800}}" color="rgba(254,254,254,0.75)" colonColor="rgba(254,254,254,0.75)" bcolor="transparent" bgcolor="transparent" wx:if="{{status===1}}"></tui-countdown>
         </view>
       </view>
-      <image src="{{parse.getImg(webURL,status)}}" class="tui-status-img" mode="widthFix"></image>
     </view>
   </view>
   <tui-list-cell arrow="{{true}}" bgcolor="#fefefe">

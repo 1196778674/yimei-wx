@@ -38,7 +38,7 @@
 	.tui-address-label {
 		padding: 5rpx 8rpx;
 		flex-shrink: 0;
-		background: #e41f19;
+		background: burlywood;
 		border-radius: 6rpx;
 		color: #fff;
 		display: inline-flex;

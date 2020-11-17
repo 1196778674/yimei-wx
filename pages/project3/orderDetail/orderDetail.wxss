@@ -25,6 +25,7 @@
 		justify-content: space-between;
 		padding: 0 70rpx;
 		box-sizing: border-box;
+		background-color: burlywood;
 	}
 
 	.tui-status-text {
@@ -236,7 +237,7 @@
 	}
 
 	.tui-primary-color {
-		color: #EB0909;
+		color: burlywood;
 	}
 
 	.tui-order-info {
@@ -256,7 +257,7 @@
 		position: absolute;
 		left: 0;
 		top: 0;
-		border-left: 4rpx solid #EB0909;
+		border-left: 4rpx solid burlywood;
 		height: 100%;
 	}
 
