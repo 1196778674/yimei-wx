@@ -18,7 +18,7 @@
     <view class="tui-screen-top">
       <view class="tui-top-item {{tabIndex==0?'tui-active tui-bold':''}}" data-index="0" bindtap="screen">
         <view>{{selectedName}}</view>
-        <tui-icon name="{{selectH>0?'arrowup':'arrowdown'}}" size="14" color="{{tabIndex==0?'#e41f19':'#444'}}" tui-icon-class="tui-ml"></tui-icon>
+        <tui-icon name="{{selectH>0?'arrowup':'arrowdown'}}" size="14" color="{{tabIndex==0?'burlywood':'#444'}}" tui-icon-class="tui-ml"></tui-icon>
       </view>
       <view class="tui-top-item {{tabIndex==1?'tui-active tui-bold':''}}" bindtap="screen" data-index="1">销量</view>
       <view class="tui-top-item" bindtap="screen" data-index="2">
@@ -33,7 +33,7 @@
       <view class="tui-dropdownlist {{selectH>0?'tui-dropdownlist-show':''}}" style="height:{{selectH}}rpx">
         <view class="tui-dropdownlist-item {{item.selected?'tui-bold':''}}" wx:for="{{dropdownList}}" wx:key="{{index}}" catchtap="dropdownItem" data-index="{{index}}">
           <text class="tui-ml tui-middle">{{item.name}}</text>
-          <tui-icon name="check" size="16" color="#e41f19" bold="{{true}}" visible="{{item.selected}}" tui-icon-class="tui-middle"></tui-icon>
+          <tui-icon name="check" size="16" color="burlywood" bold="{{true}}" visible="{{item.selected}}" tui-icon-class="tui-middle"></tui-icon>
         </view>
 
       </view>
@@ -45,7 +45,7 @@
       <block wx:for="{{attrArr}}" wx:key="{{index}}">
         <view class="tui-bottom-item {{item.isActive?'tui-btmItem-active':''}} {{attrIndex==index?'tui-btmItem-tap':''}}" data-index="{{index}}" bindtap="btnDropChange">
           <view class="tui-bottom-text {{attrIndex==index?'tui-active':''}}">{{item.isActive?item.selectedName:item.name}}</view>
-          <tui-icon name="{{attrIndex==index?'arrowup':'arrowdown'}}" size="14" color="{{attrIndex==index || item.isActive?'#e41f19':'#444'}}" tui-icon-class="tui-ml" wx:if="{{item.list.length>0}}"></tui-icon>
+          <tui-icon name="{{attrIndex==index?'arrowup':'arrowdown'}}" size="14" color="{{attrIndex==index || item.isActive?'burlywood':'#444'}}" tui-icon-class="tui-ml" wx:if="{{item.list.length>0}}"></tui-icon>
         </view>
       </block>
     </view>
@@ -73,7 +73,7 @@
     <scroll-view class="tui-scroll-box" scroll-y scroll-top="{{scrollTop}}">
       <view class="tui-seizeaseat-20"></view>
       <view class="tui-drop-item {{item.selected?'tui-bold':''}}" wx:for="{{attrData}}" wx:key="{{index}}" catchtap="btnSelected" data-index="{{index}}">
-        <tui-icon name="check" size="16" color="#e41f19" bold="{{true}}" visible="{{item.selected}}" tui-icon-class="tui-middle"></tui-icon>
+        <tui-icon name="check" size="16" color="burlywood" bold="{{true}}" visible="{{item.selected}}" tui-icon-class="tui-middle"></tui-icon>
         <text class="tui-ml tui-middle">{{item.name}}</text>
       </view>
       <view class="tui-seizeaseat-30"></view>
@@ -93,7 +93,7 @@
         <view class="tui-drawer-title">
           <text class="tui-title-bold">价格区间</text>
           <view class="tui-attr-right">
-            <tui-icon name="position-fill" color="#e41f19" size="14" class="tui-location"></tui-icon>
+            <tui-icon name="position-fill" color="burlywood" size="14" class="tui-location"></tui-icon>
             <text>北京朝阳区三环到四环之间</text>
           </view>
         </view>
@@ -112,35 +112,35 @@
         </view>
         <view class="tui-drawer-content tui-flex-attr">
           <view class="tui-attr-item">
-            <view class="tui-attr-ellipsis">狗粮</view>
+            <view class="tui-attr-ellipsis">内衣</view>
           </view>
           <view class="tui-attr-item">
-            <view class="tui-attr-ellipsis">猫粮</view>
+            <view class="tui-attr-ellipsis">底裤</view>
           </view>
           <view class="tui-attr-item">
-            <view class="tui-attr-ellipsis">进口</view>
+            <view class="tui-attr-ellipsis">好物</view>
           </view>
           <view class="tui-attr-item">
-            <view class="tui-attr-ellipsis">国产</view>
+            <view class="tui-attr-ellipsis">情趣</view>
           </view>
           <view class="tui-attr-item">
-            <view class="tui-attr-ellipsis">压缩品</view>
+            <view class="tui-attr-ellipsis">睡衣</view>
           </view>
           <view class="tui-attr-item">
-            <view class="tui-attr-ellipsis">湿品</view>
+            <view class="tui-attr-ellipsis">套装</view>
           </view>
           <view class="tui-attr-item">
-            <view class="tui-attr-ellipsis">保洁</view>
+            <view class="tui-attr-ellipsis">居家服</view>
           </view>
           <view class="tui-attr-item">
-            <view class="tui-attr-ellipsis">疫苗</view>
+            <view class="tui-attr-ellipsis">情趣道具</view>
           </view>
         </view>
 
         <view class="tui-drawer-title">
           <text class="tui-title-bold">品牌</text>
           <view class="tui-all-box">
-            <view class="tui-attr-right tui-active ">天衡宝Natural Balance</view>
+            <view class="tui-attr-right tui-active ">LA PERLA</view>
             <tui-icon name="arrowdown" size="14" color="#444" tui-icon-class="tui-ml"></tui-icon>
           </view>
         </view>
@@ -149,15 +149,15 @@
             <view class="tui-attr-ellipsis">trendsetter</view>
           </view>
           <view class="tui-attr-item tui-btmItem-active">
-            <view class="tui-attr-ellipsis">天衡宝Natural Balance</view>
+            <view class="tui-attr-ellipsis">羽心堂</view>
           </view>
           <view class="tui-attr-item">
-            <view class="tui-attr-ellipsis">比瑞吉Nature Bridge</view>
+            <view class="tui-attr-ellipsis">E14</view>
           </view>
         </view>
 
         <view class="tui-drawer-title">
-          <text class="tui-title-bold">犬种</text>
+          <text class="tui-title-bold">尺码</text>
           <view class="tui-all-box">
             <view class="tui-attr-right">全部</view>
             <tui-icon name="arrowup" size="14" color="#444" tui-icon-class="tui-ml"></tui-icon>
@@ -165,34 +165,25 @@
         </view>
         <view class="tui-drawer-content tui-flex-attr">
           <view class="tui-attr-item">
-            <view class="tui-attr-ellipsis">金毛</view>
+            <view class="tui-attr-ellipsis">A</view>
           </view>
           <view class="tui-attr-item">
-            <view class="tui-attr-ellipsis">拉布拉多</view>
+            <view class="tui-attr-ellipsis">B</view>
           </view>
           <view class="tui-attr-item">
-            <view class="tui-attr-ellipsis">泰迪</view>
+            <view class="tui-attr-ellipsis">BB</view>
           </view>
           <view class="tui-attr-item">
-            <view class="tui-attr-ellipsis">狼狗</view>
+            <view class="tui-attr-ellipsis">C</view>
           </view>
           <view class="tui-attr-item">
-            <view class="tui-attr-ellipsis">贵妇人</view>
+            <view class="tui-attr-ellipsis">D</view>
           </view>
           <view class="tui-attr-item">
-            <view class="tui-attr-ellipsis">棕熊</view>
+            <view class="tui-attr-ellipsis">DD</view>
           </view>
           <view class="tui-attr-item">
-            <view class="tui-attr-ellipsis">秋田犬</view>
-          </view>
-          <view class="tui-attr-item">
-            <view class="tui-attr-ellipsis">斗牛梗</view>
-          </view>
-          <view class="tui-attr-item">
-            <view class="tui-attr-ellipsis">边牧</view>
-          </view>
-          <view class="tui-attr-item">
-            <view class="tui-attr-ellipsis">罗威纳</view>
+            <view class="tui-attr-ellipsis">E</view>
           </view>
         </view>
         <view class="tui-safearea-bottom"></view>
@@ -211,7 +202,7 @@
   <template name="productItem">
     <!--商品列表-->
     <view class="tui-pro-item {{isList?'tui-flex-list':''}}" hover-class="hover" hover-start-time="150" bindtap="detail">
-      <image src="../../../static/images/mall/product/{{item.img}}.jpg" class="tui-pro-img {{isList?'tui-proimg-list':''}}" mode="widthFix" />
+      <image src="{{item.img}}" class="tui-pro-img {{isList?'tui-proimg-list':''}}" mode="widthFix" />
       <view class="tui-pro-content">
         <view class="tui-pro-tit">{{item.name}}</view>
         <view>
@@ -219,7 +210,6 @@
             <text class="tui-sale-price">￥{{item.sale}}</text>
             <text class="tui-factory-price">￥{{item.factory}}</text>
           </view>
-          <view class="tui-pro-pay">{{item.payNum}}人付款</view>
         </view>
       </view>
     </view>

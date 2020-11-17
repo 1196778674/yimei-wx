@@ -15,10 +15,10 @@ Page({
     isList: false, //是否以列表展示  | 列表或大图
     drawer: false,
     drawerH: 0, //抽屉内部scrollview高度
-    selectedName: "综合",
+    selectedName: "尺码",
     selectH: 0,
     dropdownList: [{
-      name: "综合",
+      name: "尺码",
       selected: true
     }, {
       name: "价格升序",
@@ -37,188 +37,152 @@ Page({
       selectedName: "品牌",
       isActive: false,
       list: [{
-        name: "trendsetter",
+        name: "LA PERLA",
         selected: false
       }, {
-        name: "天衡宝Natural Balance",
+        name: "羽心堂",
         selected: false
       }, {
-        name: "比瑞吉Nature Bridge",
+        name: "E14",
         selected: false
       }, {
-        name: "牛油果AVODerm",
+        name: "LOVE Stories",
         selected: false
       }, {
-        name: "枫树大道Maples",
+        name: "Bordelle",
         selected: false
       }, {
-        name: "原始猎食渴望Orijen",
+        name: "Estart",
         selected: false
       }, {
-        name: "伯纳天纯Pure&Natural",
+        name: "EMILY YU",
         selected: false
       }, {
-        name: "冠能PRO PLAN",
+        name: "UP CODE",
         selected: false
       }, {
-        name: "雷米高",
+        name: "A-Dom",
         selected: false
       }]
     }, {
-      name: "类型",
-      selectedName: "类型",
+      name: "分类",
+      selectedName: "分类",
       isActive: false,
       list: [{
-        name: "进口狗粮",
+        name: "内衣",
         selected: false
       }, {
-        name: "国产狗粮",
+        name: "底裤",
         selected: false
       }, {
-        name: "冻干狗粮",
+        name: "好物",
         selected: false
       }, {
-        name: "磨牙洁齿",
+        name: "情趣",
         selected: false
       }, {
-        name: "肉制零食",
+        name: "睡衣",
         selected: false
       }, {
-        name: "点心饮料",
+        name: "套装",
         selected: false
       }, {
-        name: "罐头湿粮",
+        name: "居家服",
         selected: false
       }, {
-        name: "冻干零食",
+        name: "情趣道具",
         selected: false
       }, {
-        name: "深睡眠窝",
+        name: "束身衣",
         selected: false
       }, {
-        name: "柔软睡垫",
+        name: "比基尼",
         selected: false
       }, {
-        name: "睡床沙发",
+        name: "情趣内衣",
         selected: false
       }, {
-        name: "棉制玩具",
+        name: "饰品",
         selected: false
       }, {
-        name: "橡胶玩具",
+        name: "女性护理",
         selected: false
       }, {
-        name: "塑料玩具",
+        name: "胸贴",
         selected: false
       }]
     }, {
-      name: "适用品种",
-      selectedName: "适用品种",
+      name: "尺码",
+      selectedName: "尺码",
       isActive: false,
       list: [{
-        name: "犬类",
+        name: "A",
         selected: false
       }, {
-        name: "金毛",
+        name: "B",
         selected: false
       }, {
-        name: "拉布拉多",
+        name: "C",
         selected: false
       }, {
-        name: "泰迪",
+        name: "CC",
         selected: false
       }, {
-        name: "狼狗",
+        name: "DD",
         selected: false
       }, {
-        name: "贵妇人",
-        selected: false
-      }, {
-        name: "棕熊",
-        selected: false
-      }, {
-        name: "秋田犬",
-        selected: false
-      }, {
-        name: "斗牛梗",
-        selected: false
-      }, {
-        name: "边牧",
-        selected: false
-      }, {
-        name: "藏獒",
+        name: "E",
         selected: false
       }]
     }],
     productList: [{
-        img: 1,
-        name: "美国原装进口牛油果AVODerm 鸡肉糙米配方成犬粮 30磅/13.6kg",
+        img: 'http://img.o2brashop.com/assets/uploads/products/ab842b7e6f7f87088bca956639b1424a.jpg',
+        name: "Fleur of England ADORE 黑色...",
         sale: 599,
         factory: 899,
         payNum: 2342
       },
       {
-        img: 2,
-        name: "加拿大原装进口 爱肯拿Acana 无谷鸭肉巴特利梨配方全犬粮 6kg",
+        img: 'http://img.o2brashop.com/assets/uploads/products/541113f8cd83f0c34b5b286cb9078578.jpg',
+        name: "Fleur of England ADORE 黑色...",
         sale: 29,
         factory: 69,
         payNum: 999
       },
       {
-        img: 3,
-        name: "雷米高 澳丽得 牛肉深海鱼油成犬粮 500g",
+        img: 'http://img.o2brashop.com/assets/uploads/products/3e7e1b39d318d3cb6fafbfef33143dd2.jpg',
+        name: "Fleur of England ADORE 黑色...",
         sale: 299,
         factory: 699,
         payNum: 666
       },
       {
-        img: 4,
-        name: "冠能 小型犬挑食及美毛配方成犬全价狗粮 2.5kg",
+        img: 'http://img.o2brashop.com/assets/uploads/products/9a812cd453fac287cfd05bbeb4167688.jpg',
+        name: "LOVE Stories ROSITA 黑金闪波点...",
         sale: 1599,
         factory: 2899,
         payNum: 236
       },
       {
-        img: 5,
-        name: "加拿大原装进口 爱肯拿Acana 小型犬成犬配方粮(鸡肉+鱼) 2kg",
+        img: 'http://img.o2brashop.com/assets/uploads/products/6a42e12c586a2c9f0b5b764eff0afdf8.jpg',
+        name: "LOVE Stories JOSEY 黑色棉织罗纹...",
         sale: 599,
         factory: 899,
         payNum: 2399
       },
       {
-        img: 6,
-        name: "美国原装进口 Instinct生鲜本能 无谷系列 鸡肉配方全犬粮 22.5磅(10.2kg)",
+        img: 'http://img.o2brashop.com/assets/uploads/products/fbdfd34e40b6d754cce7022887888fee.jpg',
+        name: "LOVE Stories DARLING LACE...",
         sale: 599,
         factory: 899,
         payNum: 2399
       },
       {
-        img: 1,
-        name: "加拿大原装进口纽顿 均衡低敏系列 鸡肉&糙米配方 小型成犬粮 6kg",
+        img: 'http://img.o2brashop.com/assets/uploads/products/b575fcb48da6d936d5d97d77c53b5d56.jpg',
+        name: "LOVE Stories REGGIPETTO 斑...",
         sale: 599,
         factory: 899,
         payNum: 2342
-      },
-      {
-        img: 2,
-        name: "海洋之星 臻越系列 加强配方成犬粮 小颗粒 1.5kg",
-        sale: 29,
-        factory: 69,
-        payNum: 999
-      },
-      {
-        img: 3,
-        name: "加拿大原装进口 原始猎食渴望 无谷配方 成犬粮 2kg",
-        sale: 299,
-        factory: 699,
-        payNum: 666
-      },
-      {
-        img: 4,
-        name: "醇粹Purich  金标无麸系列 全价大型成犬粮 15kg",
-        sale: 1599,
-        factory: 2899,
-        payNum: 236
       }
     ],
     pageIndex: 1,
