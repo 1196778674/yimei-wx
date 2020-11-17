@@ -15,10 +15,10 @@ Page({
     isList: false, //是否以列表展示  | 列表或大图
     drawer: false,
     drawerH: 0, //抽屉内部scrollview高度
-    selectedName: "尺码",
+    selectedName: "综合",
     selectH: 0,
     dropdownList: [{
-      name: "尺码",
+      name: "综合",
       selected: true
     }, {
       name: "价格升序",
