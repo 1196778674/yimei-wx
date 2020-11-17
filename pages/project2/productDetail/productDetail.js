@@ -7,14 +7,10 @@ Page({
     opcity: 0,
     iconOpcity: 0.5,
     banner: [
-      "https://www.thorui.cn/img/product/11.jpg",
-      "https://www.thorui.cn/img/product/2.png",
-      "https://www.thorui.cn/img/product/33.jpg",
-      "https://www.thorui.cn/img/product/4.png",
-      "https://www.thorui.cn/img/product/55.jpg",
-      "https://www.thorui.cn/img/product/6.png",
-      "https://www.thorui.cn/img/product/7.jpg",
-      "https://www.thorui.cn/img/product/8.jpg"
+      "https://img2.epetbar.com/nowater/2020-11/17/00/0a49d8115229834297f98e83266291ce.jpg",
+      "https://img2.epetbar.com/common/upload/commonfile/2019/011/15/181701_868436.jpg",
+      "https://img2.epetbar.com/common/upload/commonfile/2019/011/15/181701_170810.jpg",
+      "https://img2.epetbar.com/common/upload/commonfile/2019/011/15/181701_685634.jpg"
     ],
     bannerIndex: 0,
     topMenu: [{

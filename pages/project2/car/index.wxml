@@ -22,10 +22,10 @@
           <image src="/static/images/mall/product/{{index%2==0?'1.jpg':'4.jpg'}}" class="tui-goods-img" />
           <view class="tui-goods-info">
             <view class="tui-goods-title">
-              {{index%2==0?"欧莱雅（LOREAL）奇焕光彩粉嫩透亮修颜霜彩粉嫩透亮修颜霜透亮修颜霜透亮修颜霜":"百雀羚套装女补水保湿护肤品"}}
+              {{index%2==0?"伯纳天纯 中大型犬幼犬粮 15kg":"雷米高 澳丽得 牛肉深海鱼油成犬粮 500g"}}
             </view>
             <view class="tui-goods-model">
-              <view class="tui-model-text">{{index%2==0?"440ml;10件;套装":"500ml;2支"}}</view>
+              <view class="tui-model-text">{{index%2==0?"440g;10件;套装":"500ml;5Kg"}}</view>
               <tui-icon name="arrowdown" size="{{16}}" color="#333"></tui-icon>
             </view>
             <view class="tui-price-box">
@@ -35,7 +35,7 @@
           </view>
         </view>
       </tui-swipe-action>
-      <view class="tui-sub-info" wx:if="{{index%2==0}}">赠品：柔色尽情丝柔口红唇膏1支柔色尽情丝柔口红唇膏1支</view>
+      <view class="tui-sub-info" wx:if="{{index%2==0}}">赠品：幼犬磨牙棒1支</view>
     </view>
   </checkbox-group>
 
@@ -56,7 +56,7 @@
           <image src="/static/images/mall/product/4.jpg" class="tui-goods-img opcity" />
           <view class="tui-goods-info">
             <view class="tui-goods-title tui-gray">
-              欧莱雅（LOREAL）奇焕光彩粉嫩透亮修颜霜彩粉嫩透亮修颜霜透亮修颜霜透亮修颜霜
+              美国原装进口牛油果AVODerm 鸡肉糙米配方成犬粮 30磅/13.6kg
             </view>
             <view class="tui-price-box tui-flex-center">
               <view class="tui-goods-invalid">产品失效</view>

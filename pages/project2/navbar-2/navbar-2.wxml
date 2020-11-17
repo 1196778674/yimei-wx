@@ -30,89 +30,35 @@
           <view class="class-item">
             <view class="class-name">{{item}}</view>
             <view class="g-container">
-              <view class="g-box" catchtap="productList" data-key="高价回收">
+              <view class="g-box" catchtap="productList" data-key="精品奶砖">
                 <image src="../../../static/images/product/11.jpg" class="g-image" />
-                <view class="g-title">高价回收</view>
+                <view class="g-title">精品奶砖</view>
               </view>
-              <view class="g-box" catchtap="productList" data-key="好物优选">
+              <view class="g-box" catchtap="productList" data-key="狗粮">
                 <image src="../../../static/images/product/22.jpg" class="g-image" />
-                <view class="g-title">好物优选</view>
+                <view class="g-title">狗粮</view>
               </view>
-              <view class="g-box" catchtap="productList" data-key="iphone X">
-                <image src="../../../static/images/product/33.jpg" class="g-image" />
-                <view class="g-title">iphone X</view>
-              </view>
-              <view class="g-box" catchtap="productList" data-key="电动牙刷" wx:if="{{index%2===0}}">
+              <view class="g-box" catchtap="productList" data-key="金冠猫粮" wx:if="{{index%2===0}}">
                 <image src="../../../static/images/product/44.jpg" class="g-image" />
-                <view class="g-title">电动牙刷</view>
+                <view class="g-title">金冠猫粮</view>
               </view>
             </view>
           </view>
 
           <view class="class-item">
-            <view class="class-name">专场推荐{{index+1}}</view>
+            <view class="class-name">相关推荐</view>
             <view class="g-container">
-              <view class="g-box" catchtap="productList" data-key="笔记本" wx:if="{{index%2===0}}">
+              <view class="g-box" catchtap="productList" data-key="狗粮">
                 <image src="../../../static/images/product/11.jpg" class="g-image" />
-                <view class="g-title">笔记本</view>
+                <view class="g-title">狗粮</view>
               </view>
-              <view class="g-box" catchtap="productList" data-key="电水壶">
+              <view class="g-box" catchtap="productList" data-key="猫粮">
                 <image src="../../../static/images/product/22.jpg" class="g-image" />
-                <view class="g-title">电水壶</view>
+                <view class="g-title">猫粮</view>
               </view>
-              <view class="g-box" catchtap="productList" data-key="iphone X">
+              <view class="g-box" catchtap="productList" data-key="金毛鼠粮">
                 <image src="../../../static/images/product/33.jpg" class="g-image" />
-                <view class="g-title">iphone X</view>
-              </view>
-              <view class="g-box" catchtap="productList" data-key="电动牙刷">
-                <image src="../../../static/images/product/44.jpg" class="g-image" />
-                <view class="g-title">电动牙刷</view>
-              </view>
-              <view class="g-box" catchtap="productList" data-key="抽纸">
-                <image src="../../../static/images/product/55.jpg" class="g-image" />
-                <view class="g-title">抽纸</view>
-              </view>
-              <view class="g-box" catchtap="productList" data-key="笔记本">
-                <image src="../../../static/images/product/11.jpg" class="g-image" />
-                <view class="g-title">笔记本</view>
-              </view>
-              <view class="g-box" catchtap="productList" data-key="电水壶">
-                <image src="../../../static/images/product/22.jpg" class="g-image" />
-                <view class="g-title">电水壶</view>
-              </view>
-              <view class="g-box" catchtap="productList" data-key="iphone X" wx:if="{{index%2===0}}">
-                <image src="../../../static/images/product/33.jpg" class="g-image" />
-                <view class="g-title">iphone X</view>
-              </view>
-            </view>
-          </view>
-
-          <view class="class-item">
-            <view class="class-name">专场推荐{{index+1}}</view>
-            <view class="g-container">
-              <view class="g-box" catchtap="productList" data-key="iphone X">
-                <image src="../../../static/images/product/33.jpg" class="g-image" />
-                <view class="g-title">iphone X</view>
-              </view>
-              <view class="g-box" catchtap="productList" data-key="电动牙刷">
-                <image src="../../../static/images/product/44.jpg" class="g-image" />
-                <view class="g-title">电动牙刷</view>
-              </view>
-              <view class="g-box" catchtap="productList" data-key="抽纸">
-                <image src="../../../static/images/product/55.jpg" class="g-image" />
-                <view class="g-title">抽纸</view>
-              </view>
-              <view class="g-box" catchtap="productList" data-key="笔记本">
-                <image src="../../../static/images/product/11.jpg" class="g-image" />
-                <view class="g-title">笔记本</view>
-              </view>
-              <view class="g-box" catchtap="productList" data-key="电水壶">
-                <image src="../../../static/images/product/22.jpg" class="g-image" />
-                <view class="g-title">电水壶</view>
-              </view>
-              <view class="g-box" catchtap="productList" data-key="iphone X" wx:if="{{index%2===0}}">
-                <image src="../../../static/images/product/33.jpg" class="g-image" />
-                <view class="g-title">iphone X</view>
+                <view class="g-title">金毛鼠粮</view>
               </view>
             </view>
           </view>

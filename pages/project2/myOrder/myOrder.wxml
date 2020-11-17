@@ -9,13 +9,13 @@
           <view class="tui-order-status">已完成</view>
         </view>
       </tui-list-cell>
-      <block wx:for="{{2}}" wx:key="{{index}}">
+      <block wx:for="{{1}}" wx:key="{{index}}">
         <tui-list-cell padding="0" bindclick="detail">
           <view class="tui-goods-item">
-            <image src="/static/images/mall/product/{{index+3}}.jpg" class="tui-goods-img"></image>
+            <image src="https://img2.epetbar.com/nowater/2020-11/17/00/0a49d8115229834297f98e83266291ce.jpg" class="tui-goods-img"></image>
             <view class="tui-goods-center">
-              <view class="tui-goods-name">欧莱雅（LOREAL）奇焕光彩粉嫩透亮修颜霜 30ml（欧莱雅彩妆 BB霜 粉BB 遮瑕疵 隔离）</view>
-              <view class="tui-goods-attr">黑色，50ml</view>
+              <view class="tui-goods-name">雷米高 澳丽得 牛肉深海鱼油成犬粮 500g</view>
+              <view class="tui-goods-attr">添加深海鱼油 美味营养</view>
             </view>
             <view class="tui-price-right">
               <view>￥298.00</view>
@@ -55,10 +55,10 @@
       <block wx:for="1" wx:key="{{index}}">
         <tui-list-cell padding="0" bind:click="detail">
           <view class="tui-goods-item">
-            <image src="/static/images/mall/product/{{index+3}}.jpg" class="tui-goods-img"></image>
+            <image src="https://img2.epetbar.com/common/upload/commonfile/2019/011/15/181701_868436.jpg" class="tui-goods-img"></image>
             <view class="tui-goods-center">
-              <view class="tui-goods-name">欧莱雅（LOREAL）奇焕光彩粉嫩透亮修颜霜 30ml（欧莱雅彩妆 BB霜 粉BB 遮瑕疵 隔离）</view>
-              <view class="tui-goods-attr">黑色，50ml</view>
+              <view class="tui-goods-name">加拿大原装进口 爱肯拿Acana 无谷鸡肉鱼配方全犬粮 11.4kg</view>
+              <view class="tui-goods-attr">加拿大渴望狗粮同厂出品 原装进口</view>
             </view>
             <view class="tui-price-right">
               <view>￥298.00</view>

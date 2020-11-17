@@ -46,76 +46,76 @@ Page({
     ],
     isEdit: false,
     productList: [{
-        img: 1,
-        name: "欧莱雅（LOREAL）奇焕光彩粉嫩透亮修颜霜 30ml（欧莱雅彩妆 BB霜 粉BB 遮瑕疵 隔离）",
-        sale: 599,
-        factory: 899,
-        payNum: 2342
-      },
-      {
-        img: 2,
-        name: "德国DMK进口牛奶  欧德堡（Oldenburger）超高温处理全脂纯牛奶1L*12盒",
-        sale: 29,
-        factory: 69,
-        payNum: 999
-      },
-      {
-        img: 3,
-        name: "【第2支1元】柔色尽情丝柔口红唇膏女士不易掉色保湿滋润防水 珊瑚红",
-        sale: 299,
-        factory: 699,
-        payNum: 666
-      },
-      {
-        img: 4,
-        name: "百雀羚套装女补水保湿护肤品",
-        sale: 1599,
-        factory: 2899,
-        payNum: 236
-      },
-      {
-        img: 5,
-        name: "百草味 肉干肉脯 休闲零食 靖江精制猪肉脯200g/袋",
-        sale: 599,
-        factory: 899,
-        payNum: 2399
-      },
-      {
-        img: 6,
-        name: "短袖睡衣女夏季薄款休闲家居服短裤套装女可爱韩版清新学生两件套 短袖粉色长颈鹿 M码75-95斤",
-        sale: 599,
-        factory: 899,
-        payNum: 2399
-      },
-      {
-        img: 1,
-        name: "欧莱雅（LOREAL）奇焕光彩粉嫩透亮修颜霜",
-        sale: 599,
-        factory: 899,
-        payNum: 2342
-      },
-      {
-        img: 2,
-        name: "德国DMK进口牛奶",
-        sale: 29,
-        factory: 69,
-        payNum: 999
-      },
-      {
-        img: 3,
-        name: "【第2支1元】柔色尽情丝柔口红唇膏女士不易掉色保湿滋润防水 珊瑚红",
-        sale: 299,
-        factory: 699,
-        payNum: 666
-      },
-      {
-        img: 4,
-        name: "百雀羚套装女补水保湿护肤品",
-        sale: 1599,
-        factory: 2899,
-        payNum: 236
-      }
-    ],
+      img: 1,
+      name: "伯纳天纯 中大型犬幼犬粮 15kg",
+      sale: 599,
+      factory: 899,
+      payNum: 2342
+    },
+    {
+      img: 2,
+      name: "雷米高 澳丽得 牛肉深海鱼油成犬粮 500g",
+      sale: 29,
+      factory: 69,
+      payNum: 999
+    },
+    {
+      img: 3,
+      name: "美国原装进口牛油果AVODerm 鸡肉糙米配方成犬粮 30磅/13.6kg",
+      sale: 299,
+      factory: 699,
+      payNum: 666
+    },
+    {
+      img: 4,
+      name: "美国原装进口 Instinct生鲜本能 生鲜系列 无谷鸡肉配方全犬粮 21磅(9.5kg)",
+      sale: 1599,
+      factory: 2899,
+      payNum: 236
+    },
+    {
+      img: 5,
+      name: "美国原装进口卡比 全犬期原味配方狗粮 44磅(19.9kg) ",
+      sale: 599,
+      factory: 899,
+      payNum: 2399
+    },
+    {
+      img: 6,
+      name: "雷米高 澳宝 牛肉肝蔬菜营养全价成犬粮 20kg",
+      sale: 599,
+      factory: 899,
+      payNum: 2399
+    },
+    {
+      img: 1,
+      name: "伯纳天纯 低敏中大型犬成犬粮 15kg",
+      sale: 599,
+      factory: 899,
+      payNum: 2342
+    },
+    {
+      img: 2,
+      name: "雷米高 澳丽得 牛肉深海鱼油全价幼犬粮 500g ",
+      sale: 29,
+      factory: 69,
+      payNum: 999
+    },
+    {
+      img: 3,
+      name: "美国原装进口 Instinct生鲜本能 无谷系列 鸡肉配方全犬粮 22.5磅(10.2kg)",
+      sale: 299,
+      factory: 699,
+      payNum: 666
+    },
+    {
+      img: 4,
+      name: "醇粹Purich  金标无麸系列 全价大型成犬粮 15kg",
+      sale: 1599,
+      factory: 2899,
+      payNum: 236
+    }
+  ],
     pageIndex: 1,
     loadding: false,
     pullUpOn: true

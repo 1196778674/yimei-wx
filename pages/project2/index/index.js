@@ -27,8 +27,7 @@ Page({
     banner: [
       "1.jpeg",
       "2.jpeg",
-      "3.jpeg",
-      "4.jpeg"
+      "3.jpeg"
     ],
     category: [{
       img: "宠物.png",
