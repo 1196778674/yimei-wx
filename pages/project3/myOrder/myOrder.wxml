@@ -1,5 +1,5 @@
 <view class="container">
-  <tui-tabs tabs="{{tabs}}" isFixed="{{scrollTop>=0}}" currentTab="{{currentTab}}" selectedColor="#E41F19" sliderBgColor="#E41F19" padding="0 20rpx" bind:change="change"></tui-tabs>
+  <tui-tabs tabs="{{tabs}}" isFixed="{{scrollTop>=0}}" currentTab="{{currentTab}}" selectedColor="burlywood" sliderBgColor="burlywood" padding="0 20rpx" bind:change="change"></tui-tabs>
   <!--选项卡逻辑自己实现即可，此处未做处理-->
   <view class="{{scrollTop>=0?'tui-order-list':''}}">
     <view class="tui-order-item" wx:for="{{3}}" wx:key="{{index}}">
@@ -40,7 +40,7 @@
           <tui-button type="black" plain="{{true}}" width="148rpx" height="56rpx" size="{{26}}" shape="circle">评价晒单</tui-button>
         </view>
         <view class="tui-btn-ml">
-          <tui-button type="danger" plain="{{true}}" width="148rpx" height="56rpx" size="{{26}}" shape="circle">再次购买</tui-button>
+          <tui-button type="warning" plain="{{true}}" width="148rpx" height="56rpx" size="{{26}}" shape="circle">再次购买</tui-button>
         </view>
       </view>
     </view>
@@ -80,7 +80,7 @@
           <tui-button type="black" plain="{{true}}" width="148rpx" height="56rpx" size="{{26}}" shape="circle">删除订单</tui-button>
         </view>
         <view class="tui-btn-ml">
-          <tui-button type="danger" plain="{{true}}" width="148rpx" height="56rpx" size="{{26}}" shape="circle">再次购买</tui-button>
+          <tui-button type="warning" plain="{{true}}" width="148rpx" height="56rpx" size="{{26}}" shape="circle">再次购买</tui-button>
         </view>
       </view>
     </view>

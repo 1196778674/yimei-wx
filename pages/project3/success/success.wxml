@@ -6,8 +6,8 @@
       <view class="tui-title">订单已支付成功</view>
       <view class="tui-sub-title">非常感谢您购买我们的产品</view>
       <view class="tui-btn-box">
-        <tui-button type="danger" width="240rpx" height="70rpx" size="{{28}}" plain="{{true}}" shape="circle" bind:click="go" data-page="1">返回首页</tui-button>
-        <tui-button type="danger" shadow="{{true}}" width="240rpx" height="70rpx" size="{{28}}" shape="circle" bind:click="go" data-page="2">查看订单</tui-button>
+        <tui-button type="warning" width="240rpx" height="70rpx" size="{{28}}" plain="{{true}}" shape="circle" bind:click="go" data-page="1">返回首页</tui-button>
+        <tui-button type="warning" shadow="{{true}}" width="240rpx" height="70rpx" size="{{28}}" shape="circle" bind:click="go" data-page="2">查看订单</tui-button>
       </view>
     </view>
   </view>

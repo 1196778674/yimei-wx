@@ -1,8 +1,9 @@
 .tui-bg {
 		width: 100%;
 		height: 260rpx;
-		background: linear-gradient(20deg, #E41F19, #F34B0B);
+		background: linear-gradient(20deg, burlywood, #fff);
 		border-bottom-left-radius: 42rpx;
+		border-bottom-right-radius: 42rpx;
 	}
 
 	.tui-content {

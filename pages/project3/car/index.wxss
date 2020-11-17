@@ -21,7 +21,7 @@
 
 .tui-goods-num {
   font-weight: bold;
-  color: #e41f19;
+  color: burlywood;
 }
 
 .tui-cart-cell {
@@ -124,7 +124,7 @@
 .tui-goods-price {
   font-size: 34rpx;
   font-weight: 500;
-  color: #e41f19;
+  color: burlywood;
 }
 
 .tui-scale {
@@ -301,7 +301,7 @@
 .tui-sale-price {
   font-size: 34rpx;
   font-weight: 500;
-  color: #e41f19;
+  color: burlywood;
 }
 
 .tui-factory-price {

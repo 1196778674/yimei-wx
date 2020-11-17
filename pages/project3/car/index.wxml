@@ -130,7 +130,7 @@
         <text class="tui-bold">￥800</text> </view>
     </view>
     <view>
-      <tui-button width="200rpx" height="70rpx" size="{{30}}" type="danger" shape="circle" wx:if="{{!isEdit}}" bind:click="btnPay">去结算(0)</tui-button>
+      <tui-button width="200rpx" height="70rpx" size="{{30}}" type="warning" shape="circle" wx:if="{{!isEdit}}" bind:click="btnPay">去结算(0)</tui-button>
       <tui-button width="200rpx" height="70rpx" size="{{30}}" type="danger" shape="circle" plain="{{true}}" wx:else>删除</tui-button>
     </view>
   </view>

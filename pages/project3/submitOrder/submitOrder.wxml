@@ -102,7 +102,7 @@
       <view class="tui-size-26">.00</view>
     </view>
     <view class="tui-pr25">
-      <tui-button width="200rpx" height="70rpx" type="danger" shape="circle" bind:click="btnPay">确认支付</tui-button>
+      <tui-button width="200rpx" height="70rpx" type="warning" shape="circle" bind:click="btnPay">确认支付</tui-button>
     </view>
   </view>
 
