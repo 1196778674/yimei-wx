@@ -78,7 +78,7 @@ page {
 
 .active {
   position: relative;
-  color: #000;
+  color: burlywood;
   font-size: 30rpx;
   font-weight: 600;
   background: #fcfcfc;
@@ -87,7 +87,7 @@ page {
 .active::before {
   content: "";
   position: absolute;
-  border-left: 8rpx solid #E41F19;
+  border-left: 8rpx solid burlywood;
   height: 30rpx;
   left: 0;
 }
@@ -177,6 +177,7 @@ page {
 .g-image {
   width: 120rpx;
   height: 120rpx;
+  border-radius: 50%;
 }
 
 .g-title {

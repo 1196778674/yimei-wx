@@ -216,7 +216,7 @@ Page({
   },
   classify: function() {
     wx.navigateTo({
-      url: '/pages/project1/navbar-2/navbar-2'
+      url: '../navbar-2/navbar-2'
     })
 
   },

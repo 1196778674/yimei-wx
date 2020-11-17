@@ -365,7 +365,7 @@ page {
 }
 
 .tui-new-present {
-  color: #ff201f;
+  color: burlywood;
   font-weight: bold;
 }
 
@@ -466,7 +466,7 @@ page {
 .tui-sale-price {
   font-size: 34rpx;
   font-weight: 500;
-  color: #e41f19;
+  color: burlywood;
 }
 
 .tui-factory-price {

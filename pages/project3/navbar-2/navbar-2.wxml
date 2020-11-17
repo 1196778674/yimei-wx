@@ -15,112 +15,51 @@
     <!--内容部分 start 自定义可删除-->
     <block wx:for="{{tabbar}}" wx:key="{{index}}">
       <view class="page-view" hidden="{{currentTab!==index}}">
-        <swiper indicator-dots autoplay circular interval="5000" duration="150" class="swiper">
-          <swiper-item wx:if="{{index%2===0}}" catchtap="detail">
-            <image src="../../../static/images/mall/banner/1.jpeg" class="slide-image" />
-          </swiper-item>
-          <swiper-item catchtap="detail">
-            <image src="../../../static/images/mall/banner/2.jpeg" class="slide-image" />
-          </swiper-item>
-          <swiper-item catchtap="detail">
-            <image src="../../../static/images/mall/banner/3.jpeg" class="slide-image" />
-          </swiper-item>
-        </swiper>
         <view class="class-box">
           <view class="class-item">
-            <view class="class-name">{{item}}</view>
+            <view class="class-name">{{item}}分类</view>
             <view class="g-container">
-              <view class="g-box" catchtap="productList" data-key="高价回收">
-                <image src="../../../static/images/product/11.jpg" class="g-image" />
-                <view class="g-title">高价回收</view>
+              <view class="g-box" catchtap="productList" data-key="比基尼">
+                <image src="http://img.o2brashop.com/assets/uploads/products/3e7e1b39d318d3cb6fafbfef33143dd2.jpg" class="g-image" />
+                <view class="g-title">比基尼</view>
               </view>
-              <view class="g-box" catchtap="productList" data-key="好物优选">
-                <image src="../../../static/images/product/22.jpg" class="g-image" />
-                <view class="g-title">好物优选</view>
+              <view class="g-box" catchtap="productList" data-key="游泳装">
+                <image src="http://img.o2brashop.com/assets/uploads/products/6a42e12c586a2c9f0b5b764eff0afdf8.jpg" class="g-image" />
+                <view class="g-title">游泳装</view>
               </view>
-              <view class="g-box" catchtap="productList" data-key="iphone X">
-                <image src="../../../static/images/product/33.jpg" class="g-image" />
-                <view class="g-title">iphone X</view>
+              <view class="g-box" catchtap="productList" data-key="沙滩装">
+                <image src="http://img.o2brashop.com/assets/uploads/products/caa5fd09345aa1367c356c178919c5ad.jpg" class="g-image" />
+                <view class="g-title">沙滩装</view>
               </view>
-              <view class="g-box" catchtap="productList" data-key="电动牙刷" wx:if="{{index%2===0}}">
-                <image src="../../../static/images/product/44.jpg" class="g-image" />
-                <view class="g-title">电动牙刷</view>
-              </view>
-            </view>
-          </view>
-
-          <view class="class-item">
-            <view class="class-name">专场推荐{{index+1}}</view>
-            <view class="g-container">
-              <view class="g-box" catchtap="productList" data-key="笔记本" wx:if="{{index%2===0}}">
-                <image src="../../../static/images/product/11.jpg" class="g-image" />
-                <view class="g-title">笔记本</view>
-              </view>
-              <view class="g-box" catchtap="productList" data-key="电水壶">
-                <image src="../../../static/images/product/22.jpg" class="g-image" />
-                <view class="g-title">电水壶</view>
-              </view>
-              <view class="g-box" catchtap="productList" data-key="iphone X">
-                <image src="../../../static/images/product/33.jpg" class="g-image" />
-                <view class="g-title">iphone X</view>
-              </view>
-              <view class="g-box" catchtap="productList" data-key="电动牙刷">
-                <image src="../../../static/images/product/44.jpg" class="g-image" />
-                <view class="g-title">电动牙刷</view>
-              </view>
-              <view class="g-box" catchtap="productList" data-key="抽纸">
-                <image src="../../../static/images/product/55.jpg" class="g-image" />
-                <view class="g-title">抽纸</view>
-              </view>
-              <view class="g-box" catchtap="productList" data-key="笔记本">
-                <image src="../../../static/images/product/11.jpg" class="g-image" />
-                <view class="g-title">笔记本</view>
-              </view>
-              <view class="g-box" catchtap="productList" data-key="电水壶">
-                <image src="../../../static/images/product/22.jpg" class="g-image" />
-                <view class="g-title">电水壶</view>
-              </view>
-              <view class="g-box" catchtap="productList" data-key="iphone X" wx:if="{{index%2===0}}">
-                <image src="../../../static/images/product/33.jpg" class="g-image" />
-                <view class="g-title">iphone X</view>
-              </view>
-            </view>
-          </view>
-
-          <view class="class-item">
-            <view class="class-name">专场推荐{{index+1}}</view>
-            <view class="g-container">
-              <view class="g-box" catchtap="productList" data-key="iphone X">
-                <image src="../../../static/images/product/33.jpg" class="g-image" />
-                <view class="g-title">iphone X</view>
-              </view>
-              <view class="g-box" catchtap="productList" data-key="电动牙刷">
-                <image src="../../../static/images/product/44.jpg" class="g-image" />
-                <view class="g-title">电动牙刷</view>
-              </view>
-              <view class="g-box" catchtap="productList" data-key="抽纸">
-                <image src="../../../static/images/product/55.jpg" class="g-image" />
-                <view class="g-title">抽纸</view>
-              </view>
-              <view class="g-box" catchtap="productList" data-key="笔记本">
-                <image src="../../../static/images/product/11.jpg" class="g-image" />
-                <view class="g-title">笔记本</view>
-              </view>
-              <view class="g-box" catchtap="productList" data-key="电水壶">
-                <image src="../../../static/images/product/22.jpg" class="g-image" />
-                <view class="g-title">电水壶</view>
-              </view>
-              <view class="g-box" catchtap="productList" data-key="iphone X" wx:if="{{index%2===0}}">
-                <image src="../../../static/images/product/33.jpg" class="g-image" />
-                <view class="g-title">iphone X</view>
+              <view class="g-box" catchtap="productList" data-key="运动装" wx:if="{{index%2===0}}">
+                <image src="http://img.o2brashop.com/assets/uploads/products/a915dc7f12648021b3700e26844f5b60.jpg" class="g-image" />
+                <view class="g-title">运动装</view>
               </view>
             </view>
           </view>
 
         </view>
       </view>
-
     </block>
     <!--内容部分 end 自定义可删除-->
+
+    <!-- 热门品牌 -->
+    <view class="class-item">
+      <view class="class-name">相关推荐</view>
+      <view class="g-container">
+        <view class="g-box" catchtap="productList" data-key="LOVE Stories MON AMI 黑金闪波...">
+          <image src="http://img.o2brashop.com/assets/uploads/products/2c2aace354ac3020d684a7031808cfe4.jpg" class="g-image" />
+          <view class="g-title">MON AMI</view>
+        </view>
+        <view class="g-box" catchtap="productList" data-key="LOVE Stories AMELIE 黑色缎感面...">
+          <image src="http://img.o2brashop.com/assets/uploads/products/9abf60c4590110ce9472dfe40f242f6b.jpg" class="g-image" />
+          <view class="g-title">AMELIE</view>
+        </view>
+        <view class="g-box" catchtap="productList" data-key="LOVE Stories KAIA 米粉色无钢圈单...">
+          <image src="http://img.o2brashop.com/assets/uploads/products/f792c7005f3b75bf41f37486808e3409.jpg" class="g-image" />
+          <view class="g-title">LOVE Stories</view>
+        </view>
+      </view>
+    </view>
   </view>
 </view>
