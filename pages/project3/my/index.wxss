@@ -382,7 +382,7 @@
 .tui-sale-price {
   font-size: 34rpx;
   font-weight: 500;
-  color: #e41f19;
+  color: burlywood;
 }
 
 .tui-factory-price {
