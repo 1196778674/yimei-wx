@@ -2,7 +2,7 @@
   <view class="tui-searchbox">
     <view class="tui-search-input">
       <icon type="search" size='13' color='#333'></icon>
-      <input confirm-type="search" placeholder="大家都在搜：2019退役球星" auto-focus="{{true}}" placeholder-class="tui-input-plholder" class="tui-input" value="{{key}}" bindinput="input"/>
+      <input confirm-type="search" placeholder="大家都在搜：LOVE Stories JAGUAR" auto-focus="{{true}}" placeholder-class="tui-input-plholder" class="tui-input" value="{{key}}" bindinput="input"/>
        <icon type="clear" size='13' color='#bcbcbc' bindtap="cleanKey" hidden="{{!key}}"></icon>
     </view>
     <view class="tui-cancle" bindtap="back">取消</view>

@@ -46,76 +46,55 @@ Page({
     ],
     isEdit: false,
     productList: [{
-        img: 1,
-        name: "欧莱雅（LOREAL）奇焕光彩粉嫩透亮修颜霜 30ml（欧莱雅彩妆 BB霜 粉BB 遮瑕疵 隔离）",
-        sale: 599,
-        factory: 899,
-        payNum: 2342
-      },
-      {
-        img: 2,
-        name: "德国DMK进口牛奶  欧德堡（Oldenburger）超高温处理全脂纯牛奶1L*12盒",
-        sale: 29,
-        factory: 69,
-        payNum: 999
-      },
-      {
-        img: 3,
-        name: "【第2支1元】柔色尽情丝柔口红唇膏女士不易掉色保湿滋润防水 珊瑚红",
-        sale: 299,
-        factory: 699,
-        payNum: 666
-      },
-      {
-        img: 4,
-        name: "百雀羚套装女补水保湿护肤品",
-        sale: 1599,
-        factory: 2899,
-        payNum: 236
-      },
-      {
-        img: 5,
-        name: "百草味 肉干肉脯 休闲零食 靖江精制猪肉脯200g/袋",
-        sale: 599,
-        factory: 899,
-        payNum: 2399
-      },
-      {
-        img: 6,
-        name: "短袖睡衣女夏季薄款休闲家居服短裤套装女可爱韩版清新学生两件套 短袖粉色长颈鹿 M码75-95斤",
-        sale: 599,
-        factory: 899,
-        payNum: 2399
-      },
-      {
-        img: 1,
-        name: "欧莱雅（LOREAL）奇焕光彩粉嫩透亮修颜霜",
-        sale: 599,
-        factory: 899,
-        payNum: 2342
-      },
-      {
-        img: 2,
-        name: "德国DMK进口牛奶",
-        sale: 29,
-        factory: 69,
-        payNum: 999
-      },
-      {
-        img: 3,
-        name: "【第2支1元】柔色尽情丝柔口红唇膏女士不易掉色保湿滋润防水 珊瑚红",
-        sale: 299,
-        factory: 699,
-        payNum: 666
-      },
-      {
-        img: 4,
-        name: "百雀羚套装女补水保湿护肤品",
-        sale: 1599,
-        factory: 2899,
-        payNum: 236
-      }
-    ],
+      img: 'http://img.o2brashop.com/assets/uploads/products/ab842b7e6f7f87088bca956639b1424a.jpg',
+      name: "Fleur of England ADORE 黑色...",
+      sale: 599,
+      factory: 899,
+      payNum: 2342
+    },
+    {
+      img: 'http://img.o2brashop.com/assets/uploads/products/541113f8cd83f0c34b5b286cb9078578.jpg',
+      name: "Fleur of England ADORE 黑色...",
+      sale: 29,
+      factory: 69,
+      payNum: 999
+    },
+    {
+      img: 'http://img.o2brashop.com/assets/uploads/products/3e7e1b39d318d3cb6fafbfef33143dd2.jpg',
+      name: "Fleur of England ADORE 黑色...",
+      sale: 299,
+      factory: 699,
+      payNum: 666
+    },
+    {
+      img: 'http://img.o2brashop.com/assets/uploads/products/a04df12692eab9edf2d7ffb51dccf56f.jpg',
+      name: "Fleur of England BISOU 烟玫...",
+      sale: 1599,
+      factory: 2899,
+      payNum: 236
+    },
+    {
+      img: 'http://img.o2brashop.com/assets/uploads/products/197d2e977d3fc21701adb985e561309a.jpg',
+      name: "Fleur of England BISOU 烟玫...",
+      sale: 599,
+      factory: 899,
+      payNum: 2399
+    },
+    {
+      img: 'http://img.o2brashop.com/assets/uploads/products/9abf60c4590110ce9472dfe40f242f6b.jpg',
+      name: "LOVE Stories AMELIE 黑色缎感面...",
+      sale: 599,
+      factory: 899,
+      payNum: 2399
+    },
+    {
+      img: 'http://img.o2brashop.com/assets/uploads/products/9a812cd453fac287cfd05bbeb4167688.jpg',
+      name: "LOVE Stories ROSITA 黑金闪波点...",
+      sale: 599,
+      factory: 899,
+      payNum: 2342
+    }
+  ],
     pageIndex: 1,
     loadding: false,
     pullUpOn: true

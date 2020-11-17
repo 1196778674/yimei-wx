@@ -39,13 +39,13 @@
         商品信息
       </view>
     </tui-list-cell>
-    <block wx:for="{{2}}" wx:key="{{index}}">
+    <block wx:for="{{1}}" wx:key="{{index}}">
       <tui-list-cell padding="0">
         <view class="tui-goods-item">
-          <image src="{{'/static/images/mall/product/'+(index+3)+'.jpg'}}" class="tui-goods-img"></image>
+          <image src="http://img.o2brashop.com/assets/uploads/products/2ff4b130ee428902badf0d66fd01b9ff.jpg" class="tui-goods-img"></image>
           <view class="tui-goods-center">
-            <view class="tui-goods-name">欧莱雅（LOREAL）奇焕光彩粉嫩透亮修颜霜 30ml（欧莱雅彩妆 BB霜 粉BB 遮瑕疵 隔离）</view>
-            <view class="tui-goods-attr">黑色，50ml</view>
+            <view class="tui-goods-name">LOVE Stories MON AMI 黑金闪波..</view>
+            <view class="tui-goods-attr">黑色</view>
           </view>
           <view class="tui-price-right">
             <view>￥298.00</view>

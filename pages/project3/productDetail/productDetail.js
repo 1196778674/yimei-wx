@@ -7,14 +7,9 @@ Page({
     opcity: 0,
     iconOpcity: 0.5,
     banner: [
-      "https://www.thorui.cn/img/product/11.jpg",
-      "https://www.thorui.cn/img/product/2.png",
-      "https://www.thorui.cn/img/product/33.jpg",
-      "https://www.thorui.cn/img/product/4.png",
-      "https://www.thorui.cn/img/product/55.jpg",
-      "https://www.thorui.cn/img/product/6.png",
-      "https://www.thorui.cn/img/product/7.jpg",
-      "https://www.thorui.cn/img/product/8.jpg"
+      "http://img.o2brashop.com/assets/uploads/products/9abf60c4590110ce9472dfe40f242f6b.jpg",
+      "http://img.o2brashop.com/assets/uploads/products/10fd7e6667e20013d63978366b15e538.jpg",
+      "http://img.o2brashop.com/assets/uploads/products/0a9389234440e06da96319c30efb2400.jpg"
     ],
     bannerIndex: 0,
     topMenu: [{

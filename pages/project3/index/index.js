@@ -29,37 +29,6 @@ Page({
       "http://img.o2brashop.com/assets/uploads/blogs/71b344d60e120e3a8ed62ec290ffc793.png",
       "http://img.o2brashop.com/assets/uploads/blogs/ca291302c2d00bee8af904f67139a552.jpg"
     ],
-    category: [{
-      img: "宠物.png",
-      name: "宠物"
-    }, {
-      img: "宠物寄养.png",
-      name: "宠物寄养"
-    }, {
-      img: "宠物训练.png",
-      name: "宠物训练"
-    }, {
-      img: "宠物精粮.png",
-      name: "宠物精粮"
-    }, {
-      img: "宠物服装.png",
-      name: "宠物服装"
-    }, {
-      img: "宠物社交.png",
-      name: "宠物社交"
-    }, {
-      img: "宠物梳理.png",
-      name: "宠物梳理"
-    }, {
-      img: "宠物玩具.png",
-      name: "宠物玩具"
-    }, {
-      img: "宠物洗漱.png",
-      name: "宠物洗漱"
-    }, {
-      img: "宠物疫苗.png",
-      name: "宠物疫苗"
-    }],
     newProduct: [{
       name: "LOVE Stories VALENTINA 米白...",
       present: 198,
