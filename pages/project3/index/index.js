@@ -61,103 +61,82 @@ Page({
       name: "宠物疫苗"
     }],
     newProduct: [{
-      name: "金冠精品狗粮",
+      name: "LOVE Stories VALENTINA 米白...",
       present: 198,
       original: 298,
-      pic: "1.jpg",
+      pic: "http://img.o2brashop.com/assets/uploads/products/10fd7e6667e20013d63978366b15e538.jpg",
       type: 1,
       isLabel: true
     }, {
-      name: "海洋之星狗粮",
+      name: "LOVE Stories VALENTINA 米白...",
       present: 398,
       original: 598,
-      pic: "2.jpg",
+      pic: "http://img.o2brashop.com/assets/uploads/products/0a9389234440e06da96319c30efb2400.jpg",
       type: 2,
       isLabel: true
     }, {
-      name: "爱宠精品奶砖狗粮一包",
+      name: "LOVE Stories AMELIE 黑色缎感面...",
       present: 99,
       original: 199,
-      pic: "3.jpg",
+      pic: "http://img.o2brashop.com/assets/uploads/products/9a812cd453fac287cfd05bbeb4167688.jpg",
       type: 1,
       isLabel: true
     }, {
-      name: "集爱宠物狗粮爱吃执行",
+      name: "LOVE Stories MON AMI 黑金闪波...",
       present: 999,
       original: 1299,
-      pic: "4.jpg",
+      pic: "http://img.o2brashop.com/assets/uploads/products/a1672744b7b9aa27902fb54538ff66fe.jpg",
       type: 2,
       isLabel: true
     }],
     productList: [{
-        img: 1,
-        name: "伯纳天纯 中大型犬幼犬粮 15kg",
+        img: 'http://img.o2brashop.com/assets/uploads/products/ab842b7e6f7f87088bca956639b1424a.jpg',
+        name: "Fleur of England ADORE 黑色...",
         sale: 599,
         factory: 899,
         payNum: 2342
       },
       {
-        img: 2,
-        name: "雷米高 澳丽得 牛肉深海鱼油成犬粮 500g",
+        img: 'http://img.o2brashop.com/assets/uploads/products/541113f8cd83f0c34b5b286cb9078578.jpg',
+        name: "Fleur of England ADORE 黑色...",
         sale: 29,
         factory: 69,
         payNum: 999
       },
       {
-        img: 3,
-        name: "美国原装进口牛油果AVODerm 鸡肉糙米配方成犬粮 30磅/13.6kg",
+        img: 'http://img.o2brashop.com/assets/uploads/products/3e7e1b39d318d3cb6fafbfef33143dd2.jpg',
+        name: "Fleur of England ADORE 黑色...",
         sale: 299,
         factory: 699,
         payNum: 666
       },
       {
-        img: 4,
-        name: "美国原装进口 Instinct生鲜本能 生鲜系列 无谷鸡肉配方全犬粮 21磅(9.5kg)",
+        img: 'http://img.o2brashop.com/assets/uploads/products/a04df12692eab9edf2d7ffb51dccf56f.jpg',
+        name: "Fleur of England BISOU 烟玫...",
         sale: 1599,
         factory: 2899,
         payNum: 236
       },
       {
-        img: 5,
-        name: "美国原装进口卡比 全犬期原味配方狗粮 44磅(19.9kg) ",
+        img: 'http://img.o2brashop.com/assets/uploads/products/197d2e977d3fc21701adb985e561309a.jpg',
+        name: "Fleur of England BISOU 烟玫...",
         sale: 599,
         factory: 899,
         payNum: 2399
       },
       {
-        img: 6,
-        name: "雷米高 澳宝 牛肉肝蔬菜营养全价成犬粮 20kg",
+        img: 'http://img.o2brashop.com/assets/uploads/products/9abf60c4590110ce9472dfe40f242f6b.jpg',
+        name: "LOVE Stories AMELIE 黑色缎感面...",
         sale: 599,
         factory: 899,
         payNum: 2399
       },
       {
-        img: 1,
-        name: "伯纳天纯 低敏中大型犬成犬粮 15kg",
+        img: 'http://img.o2brashop.com/assets/uploads/products/9a812cd453fac287cfd05bbeb4167688.jpg',
+        name: "LOVE Stories ROSITA 黑金闪波点...",
         sale: 599,
         factory: 899,
         payNum: 2342
-      },
-      {
-        img: 2,
-        name: "雷米高 澳丽得 牛肉深海鱼油全价幼犬粮 500g ",
-        sale: 29,
-        factory: 69,
-        payNum: 999
-      },
-      {
-        img: 3,
-        name: "美国原装进口 Instinct生鲜本能 无谷系列 鸡肉配方全犬粮 22.5磅(10.2kg)",
-        sale: 299,
-        factory: 699,
-        payNum: 666
-      },
-      {
-        img: 4,
-        name: "醇粹Purich  金标无麸系列 全价大型成犬粮 15kg",
-        sale: 1599,
-        factory: 2899,
-        payNum: 236
       }
     ],
     pageIndex: 1,
