@@ -54,7 +54,7 @@
       <swiper next-margin="20rpx" indicator-dots="{{false}}" display-multiple-items="2" autoplay="{{false}}" interval="5000" duration="150" class="tui-banner-swiper1" circular="{{true}}">
         <swiper-item class="top-item"  wx:for="{{newProduct}}" wx:key="{{index}}" bindtap="detail">
           <view class="tui-new-item {{index!=0 && index!=1 ?'tui-new-mtop':''}}">
-            <image src="../../../static/images/mall/new/{{item.type==1?'new':'discount'}}.png" class="tui-new-label" wx:if="{{item.isLabel}}"></image>
+            <!-- <image src="../../../static/images/mall/new/{{item.type==1?'new':'discount'}}.png" class="tui-new-label" wx:if="{{item.isLabel}}"></image> -->
             <view class="tui-title-box">
               <view class="tui-new-title">{{item.name}}</view>
               <view class="tui-new-price">
@@ -72,7 +72,7 @@
 
   <!-- 热门品牌 -->
   <view class="tui-product-box tui-pb-20 tui-bg-white top0">
-    <view class="tui-group-name" bindtap="more">
+    <view class="tui-group-name" style="padding-top: 0rpx" bindtap="more">
       <text>热门品牌</text>
       <tui-icon name="arrowright" size="20" color="#555"></tui-icon>
       <view class="small-title">

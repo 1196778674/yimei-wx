@@ -59,8 +59,8 @@
     "miniprogram": {
       "list": [
         {
-          "name": "pages/project2/myOrder/myOrder",
-          "pathName": "pages/project2/myOrder/myOrder",
+          "name": "pages/project3/index/index",
+          "pathName": "pages/project3/index/index",
           "query": "",
           "scene": null
         }

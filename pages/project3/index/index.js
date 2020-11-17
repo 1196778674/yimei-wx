@@ -33,28 +33,28 @@ Page({
       name: "LOVE Stories VALENTINA 米白...",
       present: 198,
       original: 298,
-      pic: "http://img.o2brashop.com/assets/uploads/products/10fd7e6667e20013d63978366b15e538.jpg",
+      pic: "http://img.o2brashop.com/assets/uploads/products/ab842b7e6f7f87088bca956639b1424a.jpg",
       type: 1,
       isLabel: true
     }, {
       name: "LOVE Stories VALENTINA 米白...",
       present: 398,
       original: 598,
-      pic: "http://img.o2brashop.com/assets/uploads/products/0a9389234440e06da96319c30efb2400.jpg",
+      pic: "http://img.o2brashop.com/assets/uploads/products/2ff4b130ee428902badf0d66fd01b9ff.jpg",
       type: 2,
       isLabel: true
     }, {
       name: "LOVE Stories AMELIE 黑色缎感面...",
       present: 99,
       original: 199,
-      pic: "http://img.o2brashop.com/assets/uploads/products/9a812cd453fac287cfd05bbeb4167688.jpg",
+      pic: "http://img.o2brashop.com/assets/uploads/products/3e7e1b39d318d3cb6fafbfef33143dd2.jpg",
       type: 1,
       isLabel: true
     }, {
       name: "LOVE Stories MON AMI 黑金闪波...",
       present: 999,
       original: 1299,
-      pic: "http://img.o2brashop.com/assets/uploads/products/a1672744b7b9aa27902fb54538ff66fe.jpg",
+      pic: "http://img.o2brashop.com/assets/uploads/products/197d2e977d3fc21701adb985e561309a.jpg",
       type: 2,
       isLabel: true
     }],

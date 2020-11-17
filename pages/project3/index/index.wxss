@@ -330,20 +330,20 @@ page {
 }
 
 .tui-new-item {
-  width: 49%;
+  width: 95%;
   height: 200rpx;
   padding: 0 20rpx;
   box-sizing: border-box;
   display: flex;
   align-items: center;
-  /* border-color: #f5f2f9; */
+  border-color: #f5f2f9;
   border: 1px solid #f5f2f9;
   position: relative;
   border-radius: 12rpx;
 }
 
 .tui-new-mtop {
-  margin-top: 2%;
+  /* margin-top: 2%; */
 }
 
 .tui-title-box {
@@ -385,7 +385,7 @@ page {
 }
 
 .tui-new-img {
-  width: 160rpx;
+  width: 155rpx;
   height: 100%;
   display: block;
   flex-shrink: 0;
