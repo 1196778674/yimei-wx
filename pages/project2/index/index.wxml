@@ -31,7 +31,7 @@
       <view class="tui-banner-box">
         <swiper indicator-dots="true" autoplay="true" interval="5000" duration="150" class="tui-banner-swiper" circular="{{true}}">
           <swiper-item wx:for="{{banner}}" wx:key="{{index}}" catchtap="detail">
-            <image src="../../../static/images/mall/banner/{{item}}" class="tui-slide-image" mode="scaleToFill" />
+            <image src="{{item}}" class="tui-slide-image" mode="scaleToFill" />
           </swiper-item>
         </swiper>
       </view>
@@ -46,10 +46,22 @@
     </view>
   </view>
   <!-- grid -->
+  <!-- 爱心互动 -->
+  <view class="tui-product-box tui-pb-20 tui-bg-white">
+    <view class="tui-group-name" bindtap="more">
+      <text>宠物情缘</text>
+    </view>
+    <view class="tui-new-box">
+      <view class="tui-new-item padding0" wx:for="{{showLove}}" wx:key="index">
+        <image class="love-item" src="{{item}}"></image>
+      </view>
+    </view>
+  </view>
+  <!-- 爱心互动 -->
   <!-- 最佳top排行 -->
   <view class="tui-product-box tui-pb-20 tui-bg-white">
     <view class="tui-group-name" bindtap="more">
-      <text>最佳top排行</text>
+      <text>狗粮最佳排行</text>
       <tui-icon name="arrowright" size="20" color="#555"></tui-icon>
     </view>
     <view class="tui-new-box">

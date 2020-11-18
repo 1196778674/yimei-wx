@@ -6,7 +6,7 @@
     "navigationBarBackgroundColor": "#ffffff",
     "navigationBarTextStyle": "black",
     "navigationBarTitleText": "ClassMate Pro",
-    "backgroundColor": "#eeeeee",
+    "backgroundColor": "#fff",
     "backgroundTextStyle": "light",
     "enablePullDownRefresh": false
   },

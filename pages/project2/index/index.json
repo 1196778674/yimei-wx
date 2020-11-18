@@ -6,7 +6,6 @@
   "backgroundColorBottom": "#F7F7F7",
   "enablePullDownRefresh": true,
   "onReachBottomDistance": 50,
-  "navigationStyle": "custom",
   "usingComponents": {
     "tui-icon": "../../../components/icon/icon",
     "tui-tag": "../../../components/tag/tag",

@@ -25,9 +25,13 @@ Page({
       "金毛"
     ],
     banner: [
-      "1.jpeg",
-      "2.jpeg",
-      "3.jpeg"
+      "https://img14.360buyimg.com/cms/jfs/t1/38293/27/1780/396179/5cbe59faEedb8d759/6271f38b69b5edd5.jpg",
+      "https://img10.360buyimg.com/cms/jfs/t1/39282/26/1690/311297/5cbe59faE2d14755a/da18b05812088dff.jpg",
+      "https://img12.360buyimg.com/cms/jfs/t1/35279/16/5112/297421/5cbe59faEa43a6752/b6f38364e2de8bbb.jpg"
+    ],
+    showLove: [
+      'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1605696297792&di=20bcafbf2f1eb6179210c7c3334626cd&imgtype=0&src=http%3A%2F%2F2d.zol-img.com.cn%2Fproduct%2F14_800x600%2F303%2Fce4dXwTcHOMkA.jpg',
+      'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1605696192622&di=97ac1f4d643554ab0b5079de0bc665fe&imgtype=0&src=http%3A%2F%2Fimg2.zol.com.cn%2Fproduct%2F14_500x2000%2F317%2FceP7BtRbXWxbc.jpg'
     ],
     category: [{
       img: "宠物.png",

@@ -5,7 +5,7 @@ page {
 .container {
   padding-bottom: 100rpx;
   color: #333;
-  padding-top: 100rpx;
+  /* padding-top: 100rpx; */
 }
 
 /*tabbar*/
@@ -71,20 +71,20 @@ page {
 
 .tui-header {
   width: 100%;
-  height: 185rpx;
-  padding: 75rpx 30rpx 20rpx 20rpx;
+  height: auto;
+  padding: 0rpx 30rpx 20rpx 20rpx;
   box-sizing: border-box;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  position: fixed;
+  /* position: fixed;
   left: 0;
   top: 0;
-  z-index: 999;
+  z-index: 999; */
 }
 
 .tui-rolling-search {
-  width: 70%;
+  width: 100%;
   height: 60rpx;
   border-radius: 35rpx;
   padding: 0 40rpx 0 30rpx;
@@ -94,8 +94,6 @@ page {
   align-items: center;
   flex-wrap: nowrap;
   color: #999;
-  position: absolute;
-  left: 20rpx;
 }
 
 .tui-category {
@@ -142,7 +140,8 @@ page {
 
 .tui-header-banner {
   box-sizing: border-box;
-  margin-top: 60rpx;
+  /* margin-top: -20rpx; */
+  height: 345rpx;
 }
 
 .tui-hot-search {
@@ -170,7 +169,7 @@ page {
 
 .tui-banner-bg {
   display: flex;
-  height: 190rpx;
+  height: 100%;
   position: relative;
 }
 
@@ -198,13 +197,13 @@ page {
   position: absolute;
   /* overflow: hidden; */
   z-index: 99;
-  bottom: -80rpx;
+  /* bottom: -80rpx; */
   left: 0;
 }
 
 .tui-banner-swiper {
   width: 100%;
-  height: 240rpx;
+  height: 345rpx;
   border-radius: 12rpx;
   overflow: hidden;
   transform: translateY(0);
@@ -212,7 +211,7 @@ page {
 
 .tui-slide-image {
   width: 100%;
-  height: 240rpx;
+  height: 100%;
   display: block;
 }
 
@@ -242,7 +241,7 @@ page {
 
 .tui-product-category {
   background: #fff;
-  padding: 90rpx 20rpx 30rpx 20rpx;
+  padding: 20rpx 20rpx 30rpx 20rpx;
   box-sizing: border-box;
   display: flex;
   align-items: center;
@@ -268,6 +267,12 @@ page {
   display: block;
 }
 
+.love-item{
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
 .tui-category-name {
   line-height: 24rpx;
 }
@@ -289,7 +294,7 @@ page {
 .tui-group-name {
   font-size: 32rpx;
   font-weight: bold;
-  text-align: center;
+  text-align: left;
   padding: 24rpx 0;
 }
 
@@ -322,6 +327,10 @@ page {
   border: 1px solid #f5f2f9;
   position: relative;
   border-radius: 12rpx;
+}
+
+.tui-new-item.padding0{
+  padding: 0;
 }
 
 .tui-new-mtop {
